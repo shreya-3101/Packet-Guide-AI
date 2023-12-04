@@ -1,0 +1,10 @@
+Ether / IPv6 / TCP 2600:1700:f370:90d0:997f:59ea:eab0:b77e:54354 > 2607:f8b0:4023:1004::5e:https PA / Raw
+Ether / IPv6 / TCP 2600:1700:f370:90d0:997f:59ea:eab0:b77e:54354 > 2607:f8b0:4023:1004::5e:https PA / Raw
+Ether / IPv6 / TCP 2607:f8b0:4023:1004::5e:https > 2600:1700:f370:90d0:997f:59ea:eab0:b77e:54354 A
+Ether / IPv6 / TCP 2607:f8b0:4023:1004::5e:https > 2600:1700:f370:90d0:997f:59ea:eab0:b77e:54354 A
+Ether / IPv6 / TCP 2607:f8b0:4023:1004::5e:https > 2600:1700:f370:90d0:997f:59ea:eab0:b77e:54354 PA / Raw
+Ether / IP / TCP 35.201.127.49:https > 192.168.1.128:63102 PA / Raw
+Ether / IP / TCP 192.168.1.128:63102 > 35.201.127.49:https PA / Raw
+Ether / IP / TCP 35.201.127.49:https > 192.168.1.128:63102 A / Padding
+Ether / IP / TCP 192.168.1.128:63385 > 108.156.83.72:https A
+Ether / IP / TCP 35.201.127.49:https > 192.168.1.128:63075 PA / Raw
