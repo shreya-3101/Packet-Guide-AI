@@ -1,11 +1,48 @@
 import openai
 import json
 from langchain.chat_models import ChatOpenAI
-from db_operations import get_history
-from network_tools.capture_packets import sniff_count_packets, sniff_packets_duration
-from network_tools.transport_layer_packet_count import transport_layer_packets_count
+from db_operations import get_history, delete_history
+from network_tools.capture_packets import sniff_count_packets, sniff_packets_duration, get_processed_packet_data
+# from network_tools.transport_layer_packet_count import transport_layer_packets_count
 
 llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-1106")
+
+def trim_list_to_size(lst, max_size):
+    """
+    Trims a list to a specified maximum size, keeping the last 'max_size' elements.
+
+    :param lst: The list to be trimmed.
+    :param max_size: The maximum number of elements to retain in the list.
+    :return: A trimmed list.
+    """
+    if len(lst) > max_size:
+        return lst[-max_size:]
+    return lst
+
+
+def reduce_messages_size(messages, target_size=5):
+    """
+    Reduces the size of the messages array by keeping only the most recent messages.
+
+    :param messages: The list of message dictionaries.
+    :param target_size: The target number of messages to retain. Default is 5.
+    :return: A reduced list of message dictionaries.
+    """
+
+    # Separate out system and user prompts from chat history
+    system_and_user_prompts = [msg for msg in messages if msg['role'] in ['system', 'user']]
+    chat_history = [msg for msg in messages if msg['role'] not in ['system', 'user']]
+
+    # Retain only the most recent chat history messages
+    if len(chat_history) > target_size:
+        chat_history = chat_history[-target_size:]
+
+    # Combine the retained chat history with system and user prompts
+    reduced_messages = chat_history + system_and_user_prompts
+
+    return system_and_user_prompts
+    # return reduced_messages
+
 
 
 def main_agent(user_input, user_name):
@@ -13,12 +50,28 @@ def main_agent(user_input, user_name):
     # only keep last 10 chat history elements to not surpass token limit
     chat_history = chat_history[-10:]
 
-    system_message = """
-    You are a friendly AI bot that helps a user capture the network packets using the tools and analyze those network packets in a human understandable way. 
-    If the user asks to capture network packets, always first ask the user about the interface. Then ask, whether the user wants to specify the number of packets or the duration of network packet capture in seconds.
-    If the user chooses to specify the number of packets, but no number is specified still, then use 50 as default and if no interface is specified, use wifi interface as default.
-    If the user chooses to specify the duration in seconds of the packet capture, but no time is specified still, then use 10 seconds as default and if no interface is specified, use wifi interface as default.
-    User Input:"""
+## - If the user opts for a specific number of packets but does not specify a number, default to capturing 50 packets.
+## - If the user opts for a specific duration in seconds but does not specify a time, default to a 10-second capture.
+    system_message = f"""
+You are a friendly AI bot that assists users in capturing and analyzing network packets using tools like Python and Scapy. You offer two main services:
+
+1. Capturing Network Packets:
+- If the user asks to capture network packets, inquire if they prefer to specify the number of packets or the duration of the packet capture in seconds.
+- If the user specifies the number of packets, then call the "capture_network_packets_with_count" function.
+- If the user specifies the duration for the network packets, then call the "capture_network_packets_with_time" function.
+
+2. Analyzing Captured Packets:
+
+If the user has captured network packets and seeks an analysis, look into the CAPTURED PACKET DATA SECTION provided in this prompt. You can provide detailed insights, summaries, or specific information about the captured data.
+Predict by the User input if the user wants a general summary, detailed analysis, or specific information (such as protocol distribution, IP addresses involved, common ports used, etc.) based on the captured packets.
+Feel free to ask for more details or specific requirements regarding the packet capture or analysis.
+
+CAPTURED PACKET DATA SECTION STARTS HERE
+{trim_list_to_size(get_processed_packet_data(), 100)}
+CAPTURED PACKET DATA SECTION ENDS HERE
+
+User Input:
+"""
 
     system_prompt = [
         {"role": "system", "content": system_message},
@@ -34,67 +87,63 @@ def main_agent(user_input, user_name):
     messages.extend(system_prompt)
     messages.extend(user_prompt)
 
+    # print("Final prompt \n", messages)
+
     custom_functions = [
         {
             'name': 'capture_network_packets_with_count',
-            'description': 'This captures the exact number of network packets on the interface and returns those packets.',
+            'description': 'This captures the exact number of network packets on all interfaces and returns those packets.',
             'parameters': {
                 'type': 'object',
                 'properties': {
-                    'interface': {
-                        'type': 'string',
-                        'description': 'The interface to capture packets on.'
-                    },
                     'number': {
                         'type': 'integer',
                         'description': 'The number of packets to capture.'
                     }
                 },
-                'required': ['interface', 'number']
+                'required': ['number']
             }
         },
         {
             'name': 'capture_network_packets_with_time',
-            'description': 'This captures the network packets for the exact duration the user asks for on the interface and returns those packets.',
+            'description': 'This captures the network packets for the exact duration the user asks for on all interfaces and returns those packets.',
             'parameters': {
                 'type': 'object',
                 'properties': {
-                    'interface': {
-                        'type': 'string',
-                        'description': 'The interface to capture packets on.'
-                    },
                     'stop_time': {
                         'type': 'integer',
                         'description': 'The duration of sniffing the packets in seconds.'
                     },
                 },
-                'required': ['interface', 'stop_time']
-            }
-        },
-        {
-            'name': 'transport_layer_packets_count',
-            'description': 'This gives an overall and individual count of all the transport layer packets.',
-            "parameters": {
-                "type": "object",
-                "properties": {
-                    "dummy_property": {
-                        "type": "null",
-                    }
-                }
+                'required': ['stop_time']
             }
         }
     ]
 
     # print(f"Input: {messages}")
 
-    response = openai.ChatCompletion.create(
-        model='gpt-3.5-turbo',
-        messages=messages,
-        functions=custom_functions,
-        function_call='auto'
-    )
+    try:
+        response = openai.ChatCompletion.create(
+            model='gpt-3.5-turbo-1106',
+            messages=messages,
+            functions=custom_functions,
+            function_call='auto'
+        )
+    except openai.error.InvalidRequestError as e:
+        # Logic to handle the token limit error
+        # For example, reduce the size of the messages array
+        print("Retrying with reduced messages and deleting database history")
+        # messages = reduce_messages_size(messages, 1)
+        # Retry the request
+        response = openai.ChatCompletion.create(
+            model='gpt-3.5-turbo-1106',
+            messages=messages,
+            functions=custom_functions,
+            function_call='auto'
+        )
 
     response_message = response["choices"][0]["message"]
+    print(response_message)
 
     if response_message.get('function_call'):
 
@@ -109,8 +158,7 @@ def main_agent(user_input, user_name):
         # Function names
         available_functions = {
             "capture_network_packets_with_count": sniff_count_packets,
-            "capture_network_packets_with_time": sniff_packets_duration,
-            "transport_layer_packets_count": transport_layer_packets_count
+            "capture_network_packets_with_time": sniff_packets_duration
         }
 
         function_to_call = available_functions[function_called]

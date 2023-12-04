@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 # from langchain.memory import BaseMemory
 
 
-# Load AWS credentials from .env file
+# Load AWS credentials from ..env file
 load_dotenv()
 
 # Create a DynamoDB resource
@@ -100,7 +100,7 @@ def retrieve_packets(user_name):
         return "No packets found."
 
 
-def delete_packets(user_name):
+def delete_history(user_name):
     # Check if a history record exists for the given user and scene
     response = table.get_item(Key={"Username": user_name})
     db_record = response.get("Item")
@@ -109,8 +109,8 @@ def delete_packets(user_name):
         # Update the packets record
         response = table.update_item(
             Key={"Username": user_name},
-            UpdateExpression="set Packets=:p",
-            ExpressionAttributeValues={":p": ""},
+            UpdateExpression="set History=:h",
+            ExpressionAttributeValues={":h": []},
             ReturnValues="UPDATED_OLD"
         )
     else:
