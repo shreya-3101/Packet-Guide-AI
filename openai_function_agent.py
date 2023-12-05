@@ -2,10 +2,12 @@ import openai
 import json
 from langchain.chat_models import ChatOpenAI
 from db_operations import get_history, delete_history
-from network_tools.capture_packets import sniff_count_packets, sniff_packets_duration, get_processed_packet_data
+from network_tools.capture_packets import sniff_count_packets, sniff_packets_duration, get_processed_packet_data, \
+    process_predicted_packets
+
 # from network_tools.transport_layer_packet_count import transport_layer_packets_count
 
-llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-1106")
+llm = ChatOpenAI(temperature=0.6, model="gpt-3.5-turbo-1106")
 
 def trim_list_to_size(lst, max_size):
     """
@@ -44,14 +46,13 @@ def reduce_messages_size(messages, target_size=5):
     # return reduced_messages
 
 
-
 def main_agent(user_input, user_name):
     chat_history = get_history(user_name, user_input)
     # only keep last 10 chat history elements to not surpass token limit
     chat_history = chat_history[-10:]
 
-## - If the user opts for a specific number of packets but does not specify a number, default to capturing 50 packets.
-## - If the user opts for a specific duration in seconds but does not specify a time, default to a 10-second capture.
+    ## - If the user opts for a specific number of packets but does not specify a number, default to capturing 50 packets.
+    ## - If the user opts for a specific duration in seconds but does not specify a time, default to a 10-second capture.
     system_message = f"""
 You are a friendly AI bot that assists users in capturing and analyzing network packets using tools like Python and Scapy. You offer two main services:
 
@@ -67,7 +68,7 @@ Predict by the User input if the user wants a general summary, detailed analysis
 Feel free to ask for more details or specific requirements regarding the packet capture or analysis.
 
 CAPTURED PACKET DATA SECTION STARTS HERE
-{trim_list_to_size(get_processed_packet_data(), 100)}
+{trim_list_to_size(get_processed_packet_data(), 105)}
 CAPTURED PACKET DATA SECTION ENDS HERE
 
 User Input:
@@ -117,6 +118,35 @@ User Input:
                 },
                 'required': ['stop_time']
             }
+        },
+        {
+            "name": "predict_packet_protocol",
+            "description": "Predicts only one network protocol that the user is asking for in the input and extracts the important information from user input",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "user_input": {
+                        "type": "string",
+                        "description": "Copy the content in the User role in user_input. The user_input will be the exact same query/message that user sent"
+                    },
+                    "prediction": {
+                        "type": "string",
+                        "enum": [
+                            "TCP",
+                            "UDP",
+                            "ICMP",
+                            "IP",
+                            "Ether",
+                            "None",
+                            "All"
+                        ],
+                        "description": "The predicted protocols of the packet"
+                    }
+                },
+                "required": [
+                    "user_input", "prediction"
+                ]
+            }
         }
     ]
 
@@ -135,12 +165,13 @@ User Input:
         print("Retrying with reduced messages and deleting database history")
         # messages = reduce_messages_size(messages, 1)
         # Retry the request
-        response = openai.ChatCompletion.create(
-            model='gpt-3.5-turbo-1106',
-            messages=messages,
-            functions=custom_functions,
-            function_call='auto'
-        )
+        # response = openai.ChatCompletion.create(
+        #     model='gpt-3.5-turbo-1106',
+        #     # model='gpt-4-preview-1106',
+        #     messages=messages,
+        #     functions=custom_functions,
+        #     function_call='auto'
+        # )
 
     response_message = response["choices"][0]["message"]
     print(response_message)
@@ -158,7 +189,8 @@ User Input:
         # Function names
         available_functions = {
             "capture_network_packets_with_count": sniff_count_packets,
-            "capture_network_packets_with_time": sniff_packets_duration
+            "capture_network_packets_with_time": sniff_packets_duration,
+            "predict_packet_protocol": process_predicted_packets
         }
 
         function_to_call = available_functions[function_called]

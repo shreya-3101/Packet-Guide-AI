@@ -5006,3 +5006,2252 @@ Ether / IP / TCP 192.168.1.240:63171 > 149.154.167.99:https S
 Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:52182 A / Padding
 d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
 Ether / IP / TCP 149.154.167.99:https > 192.168.1.240:63171 SA
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+Ether / IP / TCP 149.154.167.99:https > 192.168.1.240:63802 R
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Qry "b'_services._dns-sd._udp.local.'" 
+Ether / IP / UDP 192.168.1.254:43007 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP / DNS Ans "b'_nvstream_dbd._tcp.local.'" 
+Ether / IP / UDP 192.168.1.128:54082 > 192.168.1.240:59871 / Raw
+Ether / IP / ICMP 192.168.1.240 > 192.168.1.128 dest-unreach port-unreachable / IPerror / UDPerror / Raw
+Ether / IP / TCP 192.168.1.240:63553 > 13.105.74.50:https FA
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / IP / TCP 13.105.74.50:https > 192.168.1.240:63553 FA
+Ether / IP / TCP 192.168.1.240:63553 > 13.105.74.50:https A
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Qry "b'_sleep-proxy._udp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_companion-link._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_airplay._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_raop._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_trel._udp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_meshcop._udp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_srpl-tls._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_nvstream_dbd._tcp.local.'" 
+Ether / IP / UDP 192.168.1.128:54081 > 192.168.1.255:59870 / Raw
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Qry "b'_printer._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_pdl-datastream._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_http._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_scanner._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_ipp._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_ipps._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_privet._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_uscan._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_smb._tcp.local.'" 
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Ans "b'3.25.1.27-TAPAS-ZEPHYRUS-.ec8047f1-ee11-4ce0-8f82-ca7255b30912._nvstream_dbd._tcp.local.'" 
+Ether / IP / UDP 192.168.1.240:54545 > 142.250.64.170:https / Raw
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.180 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.205 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.199 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.145 says 192.168.1.254 / Padding
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:54545 / Raw
+Ether / IP / TCP 192.168.1.240:63727 > 44.217.67.59:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63727 > 44.217.67.59:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63727 > 44.217.67.59:https PA / Raw
+Ether / IP / TCP 44.217.67.59:https > 192.168.1.240:63727 PA / Raw
+Ether / IP / TCP 44.217.67.59:https > 192.168.1.240:63727 A / Padding
+Ether / IP / TCP 44.217.67.59:https > 192.168.1.240:63727 PA / Raw
+Ether / IP / TCP 192.168.1.240:63727 > 44.217.67.59:https A
+Ether / ARP who has 192.168.1.68 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.209 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.185 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.240 says 192.168.1.254 / Padding
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+Ether / ARP who has 192.168.1.128 says 192.168.1.254 / Padding
+Ether / ARP is at f4:a4:75:aa:45:ab says 192.168.1.240
+Ether / IP / TCP 192.168.1.240:63557 > 52.109.16.112:https FA
+Ether / IP / TCP 192.168.1.240:63559 > 20.96.153.111:https FA
+Ether / IP / TCP 192.168.1.240:63575 > 40.90.133.97:https FA
+Ether / IP / TCP 20.96.153.111:https > 192.168.1.240:63559 FA
+Ether / IP / TCP 192.168.1.240:63559 > 20.96.153.111:https A
+Ether / IP / TCP 40.90.133.97:https > 192.168.1.240:63575 FA
+Ether / IP / TCP 192.168.1.240:63575 > 40.90.133.97:https A
+Ether / IP / TCP 52.109.16.112:https > 192.168.1.240:63557 FA
+Ether / IP / TCP 192.168.1.240:63557 > 52.109.16.112:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.180 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.205 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.179 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.145 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.68 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.209 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.181 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.185 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.240 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.128 says 192.168.1.254 / Padding
+Ether / ARP is at f4:a4:75:aa:45:ab says 192.168.1.240
+Ether / IP / UDP / DNS Qry "b'sentry.quillbot.com.'" 
+Ether / IP / UDP / DNS Qry "b'sentry.quillbot.com.'" 
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / UDP / DNS Ans 
+Ether / IP / UDP / DNS Ans "35.244.171.94" 
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https S
+Ether / IP / UDP 192.168.1.240:57248 > 172.253.124.147:https / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 35.244.171.94:https > 192.168.1.240:63808 SA
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https A
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https PA / Raw
+Ether / IP / UDP 172.253.124.147:https > 192.168.1.240:57248 / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 35.244.171.94:https > 192.168.1.240:63808 A
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 35.244.171.94:https > 192.168.1.240:63808 PA / Raw
+Ether / IP / UDP 192.168.1.240:57248 > 172.253.124.147:https / Raw
+Ether / IP / UDP / DNS Qry "b'lh3.googleusercontent.com.'" 
+Ether / IP / UDP / DNS Qry "b'lh3.googleusercontent.com.'" 
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / IP / UDP / DNS Ans "b'googlehosted.l.googleusercontent.com.'" 
+Ether / IP / UDP / DNS Ans "b'googlehosted.l.googleusercontent.com.'" 
+Ether / IP / TCP 192.168.1.240:63809 > 142.251.116.132:https S
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https A
+Ether / IP / TCP 35.244.171.94:https > 192.168.1.240:63808 PA / Raw
+Ether / IP / TCP 35.244.171.94:https > 192.168.1.240:63808 PA / Raw
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https A
+Ether / IP / TCP 142.251.116.132:https > 192.168.1.240:63809 SA
+Ether / IP / TCP 192.168.1.240:63809 > 142.251.116.132:https A
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63809 > 142.251.116.132:https PA / Raw
+Ether / IP / UDP 172.253.124.147:https > 192.168.1.240:57248 / Raw
+Ether / IP / UDP 172.253.124.147:https > 192.168.1.240:57248 / Raw
+Ether / IP / UDP 192.168.1.240:57248 > 172.253.124.147:https / Raw
+Ether / IP / UDP 172.253.124.147:https > 192.168.1.240:57248 / Raw
+Ether / IP / UDP 172.253.124.147:https > 192.168.1.240:57248 / Raw
+Ether / IP / UDP 192.168.1.240:57248 > 172.253.124.147:https / Raw
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63808 > 35.244.171.94:https PA / Raw
+Ether / IP / TCP 35.244.171.94:https > 192.168.1.240:63808 PA / Raw
+Ether / IP / TCP 35.244.171.94:https > 192.168.1.240:63808 A
+Ether / IP / TCP 35.244.171.94:https > 192.168.1.240:63808 PA / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 192.168.1.240:64522 > 192.168.1.254:domain S
+Ether / IP / TCP 192.168.1.240:64523 > 192.168.1.254:domain S
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP / DNS Qry "b'quillbot.com.'" 
+Ether / IP / UDP / DNS Ans "104.18.36.252" 
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https S
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 SA
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / UDP 192.168.1.128:62054 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:62055 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https A
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64403 FA
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64402 FA
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64406 FA
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64405 FA
+Ether / IP / TCP 192.168.1.240:64403 > 192.168.1.254:domain A
+Ether / IP / TCP 192.168.1.240:64402 > 192.168.1.254:domain A
+Ether / IP / TCP 192.168.1.240:64405 > 192.168.1.254:domain A
+Ether / IP / TCP 192.168.1.240:64406 > 192.168.1.254:domain A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64398 FA
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64404 FA
+Ether / IP / TCP 192.168.1.240:64398 > 192.168.1.254:domain A
+Ether / IP / TCP 192.168.1.240:64404 > 192.168.1.254:domain A
+Ether / IP / TCP / DNS Ans "172.217.15.205" 
+Ether / IP / TCP 192.168.1.240:64450 > 192.168.1.254:domain RA
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64450 FA
+Ether / IP / TCP 192.168.1.240:64450 > 192.168.1.254:domain R
+Ether / IP / TCP / DNS Ans "172.217.15.205" 
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64452 FA
+Ether / IP / TCP 192.168.1.240:64452 > 192.168.1.254:domain RA
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64513 SA
+Ether / IP / TCP 192.168.1.240:64513 > 192.168.1.254:domain A
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP / DNS Qry "b'_companion-link._tcp.local.'" 
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.180 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.205 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.179 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.145 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.68 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.209 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.181 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.185 says 192.168.1.254 / Padding
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / UDP 192.168.1.128:63572 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:63573 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 192.168.1.240:64446 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64444 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64445 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64443 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64473 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64472 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64470 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64446 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64444 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64445 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64443 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64473 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64472 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64470 A
+Ether / IP / TCP 192.168.1.240:64021 > 142.250.64.170:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:63409 > 81.19.104.108:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 PA / Raw
+Ether / IP / TCP 192.168.1.131:8009 > 192.168.1.240:63749 PA / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+Ether / IP / TCP 192.168.1.240:64610 > 192.168.1.209:http S
+Ether / IP / TCP 81.19.104.108:https > 192.168.1.240:63409 A
+Ether / IP / TCP 192.168.1.240:64611 > 192.168.1.209:http S
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64610 SA
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64611 SA
+Ether / IP / TCP 192.168.1.240:64610 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.240:64611 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.240:64611 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.240:64610 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.240:64610 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.240:64611 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64610 A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64611 A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64611 A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64610 A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64610 PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64610 PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64610 PA / Raw
+Ether / IP / TCP 192.168.1.240:64610 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64610 PA / Raw
+Ether / IP / TCP 192.168.1.240:64610 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.240:64442 > 65.8.178.50:https A / Raw
+Ether / IP / TCP 65.8.178.50:https > 192.168.1.240:64442 A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:64610 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.240:64610 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.240:64479 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64477 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64478 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64476 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64479 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64477 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64478 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64476 A
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64610 A
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:64612 > 192.168.1.209:http S
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64612 SA
+Ether / IP / TCP 192.168.1.240:64612 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.240:63966 > 64.233.185.94:https A / Raw
+Ether / IP / TCP 192.168.1.240:64612 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.240:64612 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64612 A
+Ether / IP / TCP 64.233.185.94:https > 192.168.1.240:63966 A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64612 A
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / TCP 192.168.1.240:64010 > 13.248.151.210:https A / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https A
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 13.248.151.210:https > 192.168.1.240:64010 A
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / TCP 192.168.1.240:64613 > 192.168.1.209:http S
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 192.168.1.240:64565 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.240:64564 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64565 A
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64564 A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:64591 PA / Raw
+Ether / IP / TCP 192.168.1.240:64591 > 104.18.40.204:https A
+Ether / IP / UDP 192.168.1.128:59053 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 192.168.1.240:64021 > 142.250.64.170:https A
+Ether / IP / TCP 192.168.1.240:64021 > 142.250.64.170:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64020 > 142.250.64.170:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64020 > 142.250.64.170:https PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 A / Padding
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64020 A / Padding
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64020 A / Padding
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64020 PA / Raw
+Ether / IP / TCP 192.168.1.240:63940 > 172.64.154.86:https A / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64020 PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64020 PA / Raw
+Ether / IP / TCP 192.168.1.240:64020 > 142.250.64.170:https A
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64020 PA / Raw
+Ether / IP / TCP 192.168.1.240:64020 > 142.250.64.170:https A
+Ether / IP / TCP 172.64.154.86:https > 192.168.1.240:63940 A
+Ether / IP / TCP 192.168.1.240:64020 > 142.250.64.170:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64021 > 142.250.64.170:https PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 A / Padding
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 A / Padding
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64020 A / Padding
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 192.168.1.240:64021 > 142.250.64.170:https A
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64021 > 142.250.64.170:https PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:64591 PA / Raw
+Ether / IP / TCP 192.168.1.240:64591 > 104.18.40.204:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https A
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / UDP 192.168.1.128:59053 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP / DNS Qry "b'_rdlink._tcp.local.'" 
+Ether / IP / TCP 192.168.1.240:63708 > 140.82.112.26:https A / Raw
+Ether / IP / TCP 140.82.112.26:https > 192.168.1.240:63708 A
+Ether / ARP who has 192.168.1.145 says 192.168.1.68 / Padding
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64472 FA
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64470 FA
+Ether / IP / TCP 192.168.1.240:64470 > 192.168.1.254:domain A
+Ether / IP / TCP 192.168.1.240:64472 > 192.168.1.254:domain A
+Ether / IP / TCP 192.168.1.240:64021 > 142.250.64.170:https A
+Ether / IP / UDP 192.168.1.128:56398 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:56399 > 192.168.1.255:59870 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.128:59053 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP / DNS Qry "b'_rdlink._tcp.local.'" 
+Ether / IP / TCP 192.168.1.240:63981 > 142.250.217.238:https A / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 142.250.217.238:https > 192.168.1.240:63981 A
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https S
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 52.182.143.210:https > 192.168.1.240:64626 SA
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https A
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https PA / Raw
+Ether / IP / TCP 52.182.143.210:https > 192.168.1.240:64626 A / Raw
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https A
+Ether / IP / TCP 52.182.143.210:https > 192.168.1.240:64626 A / Raw
+Ether / IP / TCP 52.182.143.210:https > 192.168.1.240:64626 PA / Raw
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https A
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https PA / Raw
+Ether / IP / TCP 52.182.143.210:https > 192.168.1.240:64626 PA / Raw
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https A
+Ether / IP / TCP 192.168.1.240:64473 > 192.168.1.254:domain A / Raw
+Ether / IP / TCP 192.168.1.254:domain > 192.168.1.240:64473 A
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https PA / Raw
+Ether / IP / TCP 52.182.143.210:https > 192.168.1.240:64626 A
+Ether / IP / TCP 52.182.143.210:https > 192.168.1.240:64626 A
+Ether / IP / TCP 52.182.143.210:https > 192.168.1.240:64626 PA / Raw
+Ether / IP / TCP 192.168.1.240:64626 > 52.182.143.210:https A
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 PA / Raw
+Ether / IP / TCP 192.168.1.131:8009 > 192.168.1.240:63749 PA / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.240:57754 > 142.250.189.142:https / Raw
+Ether / IP / UDP 192.168.1.240:57754 > 142.250.189.142:https / Raw
+Ether / IP / UDP 142.250.189.142:https > 192.168.1.240:57754 / Raw
+Ether / IP / UDP 142.250.189.142:https > 192.168.1.240:57754 / Raw
+Ether / IP / UDP 142.250.189.142:https > 192.168.1.240:57754 / Raw
+Ether / IP / UDP 192.168.1.240:57754 > 142.250.189.142:https / Raw
+Ether / IP / UDP 192.168.1.240:57754 > 142.250.189.142:https / Raw
+Ether / IP / UDP 142.250.189.142:https > 192.168.1.240:57754 / Raw
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 192.168.1.240:54322 > 142.250.217.234:https / Raw
+Ether / IP / UDP 192.168.1.240:54322 > 142.250.217.234:https / Raw
+Ether / IP / UDP 192.168.1.240:54322 > 142.250.217.234:https / Raw
+Ether / IP / UDP 142.250.217.234:https > 192.168.1.240:54322 / Raw
+Ether / IP / UDP 142.250.217.234:https > 192.168.1.240:54322 / Raw
+Ether / IP / UDP 142.250.217.234:https > 192.168.1.240:54322 / Raw
+Ether / IP / UDP 142.250.217.234:https > 192.168.1.240:54322 / Raw
+Ether / IP / UDP 192.168.1.240:54322 > 142.250.217.234:https / Raw
+Ether / IP / UDP 192.168.1.240:54322 > 142.250.217.234:https / Raw
+Ether / IP / UDP 142.250.217.234:https > 192.168.1.240:54322 / Raw
+Ether / IP / UDP 142.250.217.234:https > 192.168.1.240:54322 / Raw
+Ether / IP / UDP 192.168.1.240:54322 > 142.250.217.234:https / Raw
+Ether / IP / UDP 142.250.217.234:https > 192.168.1.240:54322 / Raw
+Ether / IP / UDP 142.250.217.234:https > 192.168.1.240:54322 / Raw
+Ether / IP / UDP 192.168.1.240:54322 > 142.250.217.234:https / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.217.234:https > 192.168.1.240:54322 / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 192.168.1.240:54322 > 142.250.217.234:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.128:52838 > 192.168.1.240:59871 / Raw
+Ether / IP / UDP 192.168.1.128:52841 > 192.168.1.240:59871 / Raw
+Ether / IP / ICMP 192.168.1.240 > 192.168.1.128 dest-unreach port-unreachable / IPerror / UDPerror / Raw
+Ether / IP / ICMP 192.168.1.240 > 192.168.1.128 dest-unreach port-unreachable / IPerror / UDPerror / Raw
+Ether / IP / TCP 192.168.1.240:64635 > 149.154.170.100:https PA / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 192.168.1.240:64637 > 149.154.170.100:https PA / Raw
+Ether / IP / UDP 192.168.1.128:52837 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:52840 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:64635 A / Padding
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:64635 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https A
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.168.1.240:64635 > 149.154.170.100:https A
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https A
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:64637 A / Padding
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:64637 PA / Raw
+Ether / IP / TCP 192.168.1.240:64637 > 149.154.170.100:https A
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / UDP 142.250.64.170:https > 192.168.1.240:56378 / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:64021 > 142.250.64.170:https A
+Ether / IP / UDP 192.168.1.240:56378 > 142.250.64.170:https / Raw
+Ether / IP / TCP 192.168.1.240:64647 > 192.178.50.46:https A
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.209:1025 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP 192.168.1.209:1025 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP 192.168.1.209:1025 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP 192.168.1.209:1025 > 239.255.255.250:ssdp / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 PA / Raw
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:64524 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:64524 A / Padding
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.180 says 192.168.1.254 / Padding
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:64591 PA / Raw
+Ether / IP / TCP 192.168.1.240:64591 > 104.18.40.204:https A
+Ether / ARP who has 192.168.1.205 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.199 says 192.168.1.254 / Padding
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:64698 > 44.225.243.128:https A / Raw
+Ether / IP / TCP 192.168.1.240:63966 > 64.233.185.94:https PA / Raw
+Ether / IP / TCP 64.233.185.94:https > 192.168.1.240:63966 A / Padding
+Ether / IP / TCP 64.233.185.94:https > 192.168.1.240:63966 PA / Raw
+Ether / IP / TCP 64.233.185.94:https > 192.168.1.240:63966 PA / Raw
+Ether / IP / TCP 64.233.185.94:https > 192.168.1.240:63966 PA / Raw
+Ether / IP / TCP 192.168.1.240:63966 > 64.233.185.94:https A
+Ether / IP / TCP 64.233.185.94:https > 192.168.1.240:63966 PA / Raw
+Ether / IP / TCP 44.225.243.128:https > 192.168.1.240:64698 A
+Ether / IP / TCP 192.168.1.240:63966 > 64.233.185.94:https A
+Ether / IP / UDP / DNS Ans "142.250.114.106" 
+Ether / IP / UDP 192.168.1.240:60882 > 142.250.114.106:https / Raw
+Ether / IP / UDP 192.168.1.240:60882 > 142.250.114.106:https / Raw
+Ether / IP / TCP 140.82.114.26:https > 192.168.1.240:64686 PA / Raw
+Ether / IP / TCP 192.168.1.240:64686 > 140.82.114.26:https PA / Raw
+Ether / IP / UDP 192.168.1.128:51309 > 192.168.1.240:59871 / Raw
+Ether / IP / ICMP 192.168.1.240 > 192.168.1.128 dest-unreach port-unreachable / IPerror / UDPerror / Raw
+Ether / IP / TCP 140.82.114.26:https > 192.168.1.240:64686 A / Padding
+Ether / IP / UDP 142.250.114.106:https > 192.168.1.240:60882 / Raw
+Ether / IP / UDP 142.250.114.106:https > 192.168.1.240:60882 / Raw
+Ether / IP / UDP 142.250.114.106:https > 192.168.1.240:60882 / Raw
+Ether / IP / UDP 142.250.114.106:https > 192.168.1.240:60882 / Raw
+Ether / IP / UDP 142.250.114.106:https > 192.168.1.240:60882 / Raw
+Ether / IP / UDP 192.168.1.240:60882 > 142.250.114.106:https / Raw
+Ether / IP / UDP 192.168.1.240:60882 > 142.250.114.106:https / Raw
+Ether / IP / UDP 142.250.114.106:https > 192.168.1.240:60882 / Raw
+Ether / IP / UDP 142.250.114.106:https > 192.168.1.240:60882 / Raw
+Ether / IP / UDP 192.168.1.240:60882 > 142.250.114.106:https / Raw
+Ether / IP / UDP 192.168.1.128:51308 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 142.250.114.106:https > 192.168.1.240:60882 / Raw
+Ether / IP / TCP 192.168.1.240:64505 > 172.217.2.206:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64505 > 172.217.2.206:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64505 > 172.217.2.206:https PA / Raw
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 A / Padding
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 PA / Raw
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 A / Padding
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 A / Padding
+Ether / IP / TCP 192.168.1.240:64505 > 172.217.2.206:https A
+Ether / IP / TCP 52.206.35.170:https > 192.168.1.240:64725 PA / Raw
+Ether / IP / TCP 52.206.35.170:https > 192.168.1.240:64725 PA / Raw
+Ether / IP / TCP 192.168.1.240:64725 > 52.206.35.170:https A
+Ether / IP / TCP 52.206.35.170:https > 192.168.1.240:64725 PA / Raw
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 PA / Raw
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 PA / Raw
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 PA / Raw
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 PA / Raw
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 PA / Raw
+Ether / IP / TCP 192.168.1.240:64505 > 172.217.2.206:https A
+Ether / IP / TCP 192.168.1.240:64505 > 172.217.2.206:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64505 > 172.217.2.206:https PA / Raw
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 A / Padding
+Ether / IP / TCP 172.217.2.206:https > 192.168.1.240:64505 A / Padding
+Ether / IP / TCP 192.168.1.240:64725 > 52.206.35.170:https A
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.180 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.205 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.179 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.145 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.68 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.209 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.181 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.185 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.240 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.128 says 192.168.1.254 / Padding
+Ether / ARP is at f4:a4:75:aa:45:ab says 192.168.1.240
+Ether / IP / UDP / DNS Qry "b'analytics-toolbar.urban-vpn.com.'" 
+Ether / IP / UDP / DNS Ans "148.72.164.13" 
+Ether / IP / TCP 192.168.1.240:64733 > 148.72.164.13:40443 S
+Ether / IP / TCP 148.72.164.13:40443 > 192.168.1.240:64733 SA
+Ether / IP / TCP 192.168.1.240:64733 > 148.72.164.13:40443 A
+Ether / IP / TCP 192.168.1.240:64733 > 148.72.164.13:40443 PA / Raw
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / TCP 192.168.1.240:64698 > 44.225.243.128:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64698 > 44.225.243.128:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64698 > 44.225.243.128:https PA / Raw
+Ether / IP / UDP / DNS Ans "34.210.198.39" 
+Ether / IP / TCP 148.72.164.13:40443 > 192.168.1.240:64733 A
+Ether / IP / TCP 148.72.164.13:40443 > 192.168.1.240:64733 A / Raw
+Ether / IP / TCP 148.72.164.13:40443 > 192.168.1.240:64733 A / Raw
+Ether / IP / TCP 148.72.164.13:40443 > 192.168.1.240:64733 PA / Raw
+Ether / IP / TCP 192.168.1.240:64733 > 148.72.164.13:40443 A
+Ether / IP / TCP 192.168.1.240:64733 > 148.72.164.13:40443 PA / Raw
+Ether / IP / TCP 148.72.164.13:40443 > 192.168.1.240:64733 PA / Raw
+Ether / IP / TCP 44.225.243.128:https > 192.168.1.240:64698 A / Padding
+Ether / IP / TCP 44.225.243.128:https > 192.168.1.240:64698 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64733 > 148.72.164.13:40443 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 44.225.243.128:https > 192.168.1.240:64698 A / Padding
+Ether / IP / TCP 192.168.1.240:64733 > 148.72.164.13:40443 PA / Raw
+Ether / IP / TCP 44.225.243.128:https > 192.168.1.240:64698 PA / Raw
+Ether / IP / TCP 44.225.243.128:https > 192.168.1.240:64698 PA / Raw
+Ether / IP / TCP 192.168.1.240:64698 > 44.225.243.128:https A
+Ether / IP / TCP 192.168.1.240:64698 > 44.225.243.128:https PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 148.72.164.13:40443 > 192.168.1.240:64733 A
+Ether / IP / TCP 148.72.164.13:40443 > 192.168.1.240:64733 PA / Raw
+Ether / IP / TCP 192.168.1.240:64734 > 192.168.1.209:http S
+Ether / IP / TCP 192.168.1.240:64725 > 52.206.35.170:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64733 > 148.72.164.13:40443 A
+Ether / IP / TCP 52.206.35.170:https > 192.168.1.240:64725 PA / Raw
+Ether / IP / TCP 44.225.243.128:https > 192.168.1.240:64698 A / Padding
+Ether / IP / TCP 192.168.1.240:64725 > 52.206.35.170:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https A
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64734 SA
+Ether / IP / TCP 192.168.1.240:64734 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.240:64734 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.240:64734 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64734 A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64734 A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64734 PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64734 PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64734 PA / Raw
+Ether / IP / TCP 192.168.1.240:64734 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.240:64734 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:64734 PA / Raw
+Ether / IP / TCP 192.168.1.240:64734 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:64734 > 192.168.1.209:http PA / Raw
+Ether / IP / UDP 192.168.1.128:51311 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / TCP 142.250.64.170:https > 192.168.1.240:64021 PA / Raw
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / UDP / DNS Ans "54.201.128.234" 
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https S
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 SA
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https A
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https A
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 PA / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https A
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64647 PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64647 > 192.178.50.46:https A
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 PA / Raw
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A / Padding
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 PA / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 PA / Raw
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https A
+Ether / IP / TCP 192.168.1.240:65456 > 54.201.128.234:https PA / Raw
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A
+Ether / IP / TCP 54.201.128.234:https > 192.168.1.240:65456 A / Padding
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:63790 PA / Raw
+Ether / IP / TCP 192.168.1.240:63790 > 149.154.174.100:https A
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https A
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 PA / Raw
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https A
+Ether / IP / TCP 192.168.1.240:64008 > 192.178.50.46:https PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.178.50.46:https > 192.168.1.240:64008 A / Padding
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.128:52919 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:52920 > 192.168.1.240:59871 / Raw
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:64591 PA / Raw
+Ether / IP / ICMP 192.168.1.240 > 192.168.1.128 dest-unreach port-unreachable / IPerror / UDPerror / Raw
+Ether / IP / TCP 192.168.1.240:64591 > 104.18.40.204:https A
+Ether / IP / TCP 140.82.113.4:https > 192.168.1.240:65392 PA / Raw
+Ether / IP / TCP 140.82.113.4:https > 192.168.1.240:65392 PA / Raw
+Ether / IP / TCP 140.82.113.4:https > 192.168.1.240:65392 FA
+Ether / IP / TCP 192.168.1.240:65392 > 140.82.113.4:https A
+Ether / IP / TCP 192.168.1.240:65392 > 140.82.113.4:https RA
+Ether / IP / TCP 140.82.113.4:https > 192.168.1.240:65392 FA
+Ether / IP / TCP 192.168.1.240:65392 > 140.82.113.4:https R
+Ether / IP / TCP 140.82.114.26:https > 192.168.1.240:65393 PA / Raw
+Ether / IP / TCP 192.168.1.240:65393 > 140.82.114.26:https PA / Raw
+Ether / IP / TCP 140.82.114.26:https > 192.168.1.240:65393 A / Padding
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 PA / Raw
+Ether / IP / TCP 192.168.1.131:8009 > 192.168.1.240:63749 PA / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / UDP / DNS Qry "b'www.google.com.'" 
+Ether / IP / UDP / DNS Ans "142.250.113.99" 
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:49327 A / Padding
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:49327 PA / Raw
+Ether / IP / TCP 192.168.1.240:49327 > 149.154.170.100:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.139:9487 > 255.255.255.255:9478 / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 A / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 PA / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 A / Padding
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https A
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https A
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https A
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https A
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https A
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 PA / Raw
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https A
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / TCP 192.168.1.240:49284 > 172.217.3.78:https PA / Raw
+Ether / IP / TCP 172.217.3.78:https > 192.168.1.240:49284 A / Padding
+Ether / IP / UDP 192.168.1.128:65244 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:65245 > 192.168.1.255:59870 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 184.105.99.75:https > 192.168.1.240:49291 PA / Raw
+Ether / IP / TCP 184.105.99.75:https > 192.168.1.240:49291 FPA / Raw
+Ether / IP / TCP 192.168.1.240:49291 > 184.105.99.75:https A
+Ether / IP / TCP 192.168.1.240:49291 > 184.105.99.75:https RA
+Ether / IP / TCP 192.168.1.240:49326 > 149.154.170.100:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49278 > 142.250.217.206:https A / Raw
+Ether / IP / TCP 142.250.217.206:https > 192.168.1.240:49278 A
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:49326 A / Padding
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:49326 PA / Raw
+Ether / IP / TCP 192.168.1.240:49326 > 149.154.170.100:https A
+Ether / IP / TCP 192.168.1.240:49279 > 142.250.217.206:https A / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 142.250.217.206:https > 192.168.1.240:49279 A
+Ether / IP / TCP 192.168.1.240:63544 > 38.110.1.171:https PA / Raw
+Ether / IP / TCP 38.110.1.171:https > 192.168.1.240:63544 A / Padding
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 PA / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:49293 > 35.190.80.1:https A / Raw
+Ether / IP / TCP 35.190.80.1:https > 192.168.1.240:49293 A
+Ether / IP / TCP 192.168.1.240:49327 > 149.154.170.100:https PA / Raw
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:49327 A / Padding
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:64591 PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 PA / Raw
+Ether / IP / TCP 192.168.1.240:64591 > 104.18.40.204:https A
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https A
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 192.168.1.128:53953 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / UDP / DNS Ans "34.216.127.37" 
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https S
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 SA
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https A
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https A
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 PA / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https A
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 PA / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 PA / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https A
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A / Padding
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https A
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 A / Padding
+Ether / IP / TCP 192.168.1.240:49274 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49274 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 PA / Raw
+Ether / IP / TCP 192.168.1.240:49274 > 142.250.189.138:https A
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 PA / Raw
+Ether / IP / TCP 192.168.1.240:49274 > 142.250.189.138:https A
+Ether / IP / TCP 192.168.1.240:49274 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https PA / Raw
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https A
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 A / Padding
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 PA / Raw
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https A
+Ether / IP / TCP 192.168.1.240:64006 > 172.67.73.98:https PA / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:64006 A / Padding
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 PA / Raw
+Ether / IP / TCP 192.168.1.131:8009 > 192.168.1.240:63749 PA / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 PA / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https A
+Ether / IP / UDP / DNS Qry "b'_companion-link._tcp.local.'" 
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https A
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 PA / Raw
+Ether / IP / TCP 192.168.1.240:49274 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49274 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 PA / Raw
+Ether / IP / UDP 192.168.1.128:60391 > 192.168.1.240:59871 / Raw
+Ether / IP / ICMP 192.168.1.240 > 192.168.1.128 dest-unreach port-unreachable / IPerror / UDPerror / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 PA / Raw
+Ether / IP / TCP 192.168.1.240:49274 > 142.250.189.138:https A
+Ether / IP / TCP 192.168.1.240:49274 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https A
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49274 A / Padding
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 PA / Raw
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https A
+Ether / IP / TCP 192.168.1.240:49275 > 142.250.189.138:https PA / Raw
+Ether / IP / TCP 142.250.189.138:https > 192.168.1.240:49275 A / Padding
+Ether / 192.168.1.240 > 224.0.0.22 2 / Raw
+Ether / IP / TCP 192.168.1.240:63925 > 142.251.162.188:5228 A / Raw
+Ether / IP / TCP 192.168.1.240:63995 > 108.156.83.11:https A / Raw
+Ether / IP / TCP 192.168.1.240:63991 > 108.156.83.11:https A / Raw
+Ether / IP / TCP 108.156.83.11:https > 192.168.1.240:63995 A
+Ether / IP / TCP 108.156.83.11:https > 192.168.1.240:63991 A
+Ether / IP / TCP 142.251.162.188:5228 > 192.168.1.240:63925 A
+Ether / IP / UDP 192.168.1.128:60390 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:49396 > 142.251.15.95:https A / Raw
+Ether / IP / TCP 192.168.1.240:65052 > 104.192.142.21:https A / Raw
+Ether / IP / TCP 142.251.15.95:https > 192.168.1.240:49396 A
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49185 > 104.18.36.252:https A / Raw
+Ether / IP / TCP 104.192.142.21:https > 192.168.1.240:65052 A
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:49185 A
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A / Padding
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 PA / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A / Padding
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 PA / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 PA / Raw
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https A
+Ether / IP / TCP 192.168.1.240:49388 > 34.216.127.37:https PA / Raw
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 192.168.1.240:49349 > 34.198.203.13:https A / Raw
+Ether / IP / TCP 34.216.127.37:https > 192.168.1.240:49388 A / Padding
+Ether / IP / TCP 34.198.203.13:https > 192.168.1.240:49349 A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:49313 > 142.251.35.227:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49313 > 142.251.35.227:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49282 > 142.250.115.139:https PA / Raw
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49313 A / Padding
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49313 PA / Raw
+Ether / IP / TCP 192.168.1.240:49282 > 142.250.115.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49282 > 142.250.115.139:https PA / Raw
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49313 PA / Raw
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49313 PA / Raw
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49313 PA / Raw
+Ether / IP / TCP 192.168.1.240:49313 > 142.251.35.227:https A
+Ether / IP / TCP 192.168.1.240:49313 > 142.251.35.227:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49313 > 142.251.35.227:https PA / Raw
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 A / Padding
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 PA / Raw
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 A / Padding
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 A / Padding
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49313 A / Padding
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 PA / Raw
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 PA / Raw
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 PA / Raw
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 PA / Raw
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 PA / Raw
+Ether / IP / TCP 192.168.1.240:49282 > 142.250.115.139:https A
+Ether / IP / TCP 192.168.1.240:49282 > 142.250.115.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:49282 > 142.250.115.139:https PA / Raw
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 A / Padding
+Ether / IP / TCP 142.250.115.139:https > 192.168.1.240:49282 A / Padding
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 PA / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https A
+Ether / IP / UDP 192.168.1.240:56553 > 142.250.189.138:https / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:56553 / Raw
+Ether / IP / TCP 192.168.1.240:49730 > 38.113.165.138:https A / Raw
+Ether / IP / UDP 192.168.1.128:53520 > 192.168.1.240:59871 / Raw
+Ether / IP / ICMP 192.168.1.240 > 192.168.1.128 dest-unreach port-unreachable / IPerror / UDPerror / Raw
+Ether / IP / TCP 38.113.165.138:https > 192.168.1.240:49730 A / Padding
+Ether / IP / UDP 192.168.1.128:53519 > 192.168.1.255:59870 / Raw
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.180 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.205 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.179 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.145 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.68 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.209 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.181 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.185 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.240 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.128 says 192.168.1.254 / Padding
+Ether / ARP is at f4:a4:75:aa:45:ab says 192.168.1.240
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 PA / Raw
+Ether / IP / TCP 192.168.1.131:8009 > 192.168.1.240:63749 PA / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP / DNS Qry "b'_services._dns-sd._udp.local.'" 
+Ether / IP / UDP 192.168.1.254:43007 > 239.255.255.250:ssdp / Raw
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Ans "b'_nvstream_dbd._tcp.local.'" 
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 PA / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https A
+Ether / IP / UDP / DNS Qry "b'_sleep-proxy._udp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_companion-link._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_airplay._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_raop._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_trel._udp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_meshcop._udp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_srpl-tls._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_nvstream_dbd._tcp.local.'" 
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Qry "b'_printer._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_pdl-datastream._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_http._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_scanner._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_ipp._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_ipps._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_privet._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_uscan._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_smb._tcp.local.'" 
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Ans "b'3.25.1.27-TAPAS-ZEPHYRUS-.ec8047f1-ee11-4ce0-8f82-ca7255b30912._nvstream_dbd._tcp.local.'" 
+Ether / ARP who has 192.168.1.240 says 192.168.1.128 / Padding
+Ether / ARP is at f4:a4:75:aa:45:ab says 192.168.1.240
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.205 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.199 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.145 says 192.168.1.254 / Padding
+Ether / IP / UDP 192.168.1.240:62175 > 239.255.255.250:ssdp / Raw
+Ether / ARP who has 192.168.1.68 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.209 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.185 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.240 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.128 says 192.168.1.254 / Padding
+Ether / ARP is at f4:a4:75:aa:45:ab says 192.168.1.240
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / UDP 192.168.1.128:60514 > 192.168.1.240:59871 / Raw
+Ether / IP / UDP 192.168.1.128:60517 > 192.168.1.240:59871 / Raw
+Ether / IP / ICMP 192.168.1.240 > 192.168.1.128 dest-unreach port-unreachable / IPerror / UDPerror / Raw
+Ether / IP / ICMP 192.168.1.240 > 192.168.1.128 dest-unreach port-unreachable / IPerror / UDPerror / Raw
+Ether / IP / TCP 192.168.1.240:63573 > 52.159.127.243:https PA / Raw
+Ether / IP / TCP 52.159.127.243:https > 192.168.1.240:63573 PA / Raw
+Ether / IP / UDP 192.168.1.128:60513 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:60516 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:63573 > 52.159.127.243:https A
+Ether / IP / UDP 192.168.1.240:62175 > 239.255.255.250:ssdp / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:49292 > 142.251.35.227:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 142.250.114.94:https > 192.168.1.240:49788 PA / Raw
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:64591 PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:49191 PA / Raw
+Ether / IP / TCP 192.168.1.240:49788 > 142.250.114.94:https FA
+Ether / IP / TCP 192.168.1.240:49191 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49292 A / Padding
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49292 PA / Raw
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49292 PA / Raw
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49292 PA / Raw
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49292 PA / Raw
+Ether / IP / TCP 192.168.1.240:49292 > 142.251.35.227:https A
+Ether / IP / TCP 192.168.1.240:49292 > 142.251.35.227:https PA / Raw
+Ether / IP / TCP 142.250.114.94:https > 192.168.1.240:49788 FA
+Ether / IP / TCP 192.168.1.240:49788 > 142.250.114.94:https A
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 142.251.35.227:https > 192.168.1.240:49292 A / Padding
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:64591 PA / Raw
+Ether / IP / TCP 192.168.1.240:64591 > 104.18.40.204:https A
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / UDP / DNS Ans "52.40.37.62" 
+Ether / IP / TCP 192.168.1.240:50102 > 52.40.37.62:https S
+Ether / IP / TCP 52.40.37.62:https > 192.168.1.240:50102 SA
+Ether / IP / TCP 192.168.1.240:50102 > 52.40.37.62:https A
+Ether / IP / TCP 192.168.1.240:50102 > 52.40.37.62:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50098 > 142.250.9.94:https PA / Raw
+Ether / IP / UDP 192.168.1.240:54437 > 142.250.217.238:https / Raw
+Ether / IP / UDP 192.168.1.240:54437 > 142.250.217.238:https / Raw
+Ether / IP / UDP 192.168.1.240:54437 > 142.250.217.238:https / Raw
+Ether / IP / UDP 192.168.1.240:54437 > 142.250.217.238:https / Raw
+Ether / IP / UDP 192.168.1.240:54437 > 142.250.217.238:https / Raw
+Ether / IP / UDP 192.168.1.240:54437 > 142.250.217.238:https / Raw
+Ether / IP / UDP 142.250.217.238:https > 192.168.1.240:54437 / Raw
+Ether / IP / UDP 142.250.217.238:https > 192.168.1.240:54437 / Raw
+Ether / IP / UDP 142.250.217.238:https > 192.168.1.240:54437 / Raw
+Ether / IP / TCP 142.250.9.94:https > 192.168.1.240:50098 PA / Raw
+Ether / IP / TCP 142.250.9.94:https > 192.168.1.240:50098 PA / Raw
+Ether / IP / TCP 142.250.9.94:https > 192.168.1.240:50098 PA / Raw
+Ether / IP / TCP 142.250.9.94:https > 192.168.1.240:50098 PA / Raw
+Ether / IP / TCP 192.168.1.240:50098 > 142.250.9.94:https A
+Ether / IP / TCP 192.168.1.240:50098 > 142.250.9.94:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50098 > 142.250.9.94:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+Ether / IP / UDP 192.168.1.128:63335 > 239.255.255.250:ssdp / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Qry "b'_services._dns-sd._udp.local.'" 
+Ether / IP / UDP 192.168.1.254:43007 > 239.255.255.250:ssdp / Raw
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Ans "b'_nvstream_dbd._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_sleep-proxy._udp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_companion-link._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_airplay._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_raop._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_trel._udp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_meshcop._udp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_srpl-tls._tcp.local.'" 
+Ether / IP / UDP / DNS Qry "b'_nvstream_dbd._tcp.local.'" 
+Ether / IP / UDP / DNS Ans "b'3.25.1.27-TAPAS-ZEPHYRUS-.ec8047f1-ee11-4ce0-8f82-ca7255b30912._nvstream_dbd._tcp.local.'" 
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / IP / TCP 192.168.1.240:50127 > 142.251.15.95:https A / Raw
+Ether / IP / TCP 142.251.15.95:https > 192.168.1.240:50127 A
+Ether / IP / TCP 192.168.1.240:50068 > 74.125.136.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50068 > 74.125.136.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50068 > 74.125.136.113:https PA / Raw
+Ether / IP / TCP 74.125.136.113:https > 192.168.1.240:50068 A / Padding
+Ether / IP / TCP 74.125.136.113:https > 192.168.1.240:50068 PA / Raw
+Ether / IP / TCP 74.125.136.113:https > 192.168.1.240:50068 A / Padding
+Ether / IP / TCP 74.125.136.113:https > 192.168.1.240:50068 PA / Raw
+Ether / IP / TCP 74.125.136.113:https > 192.168.1.240:50068 PA / Raw
+Ether / IP / TCP 74.125.136.113:https > 192.168.1.240:50068 PA / Raw
+Ether / IP / TCP 192.168.1.240:50068 > 74.125.136.113:https A
+Ether / IP / TCP 74.125.136.113:https > 192.168.1.240:50068 PA / Raw
+Ether / IP / TCP 192.168.1.240:50068 > 74.125.136.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50068 > 74.125.136.113:https PA / Raw
+Ether / IP / TCP 74.125.136.113:https > 192.168.1.240:50068 A / Padding
+Ether / IP / TCP 74.125.136.113:https > 192.168.1.240:50068 A / Padding
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50133 > 148.72.164.12:40443 PA / Raw
+Ether / IP / TCP 192.168.1.240:50133 > 148.72.164.12:40443 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 148.72.164.12:40443 > 192.168.1.240:50133 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:50182 A
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:50182 PA / Raw
+Ether / IP / TCP 192.168.1.240:50182 > 149.154.170.100:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50182 > 149.154.170.100:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50182 > 149.154.170.100:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50070 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 A / Padding
+Ether / IP / TCP 192.168.1.240:50063 > 173.194.217.188:5228 A / Raw
+Ether / IP / TCP 192.168.1.240:50064 > 173.194.217.188:5228 A / Raw
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:50182 A
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:50182 PA / Raw
+Ether / IP / TCP 173.194.217.188:5228 > 192.168.1.240:50063 A
+Ether / IP / TCP 192.168.1.240:50182 > 149.154.170.100:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 PA / Raw
+Ether / IP / TCP 192.168.1.240:50070 > 172.67.73.98:https A
+Ether / IP / TCP 192.168.1.240:50070 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 173.194.217.188:5228 > 192.168.1.240:50064 A
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 A / Padding
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:50182 PA / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.128:56809 > 239.255.255.250:ssdp / Raw
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:50182 A / Raw
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:50182 PA / Raw
+Ether / IP / TCP 192.168.1.240:50200 > 54.88.210.200:https A / Raw
+Ether / IP / TCP 54.88.210.200:https > 192.168.1.240:50200 A
+Ether / ARP who has 192.168.1.121 says 192.168.1.68 / Padding
+Ether / IP / UDP 192.168.1.240:62344 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:62345 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:62347 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / UDP / DNS Ans "44.239.162.213" 
+Ether / IP / TCP 192.168.1.240:50225 > 44.239.162.213:https S
+Ether / IP / TCP 44.239.162.213:https > 192.168.1.240:50225 SA
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.240:52609 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:52610 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:52612 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.240:52614 > 192.168.1.128:59871 / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 PA / Raw
+Ether / IP / TCP 192.168.1.131:8009 > 192.168.1.240:63749 PA / Raw
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / IP / TCP 192.168.1.240:50256 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50256 PA / Raw
+Ether / IP / UDP 142.250.189.138:https > 192.168.1.240:49160 / Raw
+Ether / IP / UDP 192.168.1.240:49160 > 142.250.189.138:https / Raw
+Ether / IP / TCP 192.168.1.240:50256 > 149.154.174.100:https A
+Ether / IP / TCP 140.82.114.25:https > 192.168.1.240:49949 PA / Raw
+Ether / IP / TCP 192.168.1.240:49949 > 140.82.114.25:https PA / Raw
+Ether / IP / TCP 140.82.114.25:https > 192.168.1.240:49949 A / Padding
+Ether / IP / TCP 192.168.1.240:50070 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 A / Padding
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 PA / Raw
+Ether / IP / TCP 192.168.1.240:50070 > 172.67.73.98:https A
+Ether / IP / TCP 192.168.1.240:50070 > 172.67.73.98:https PA / Raw
+Ether / IP / TCP 172.67.73.98:https > 192.168.1.240:50070 A / Padding
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.128:51585 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:51981 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:50257 > 149.154.167.99:https A / Raw
+Ether / IP / TCP 54.68.40.114:https > 192.168.1.240:50251 PA / Raw
+Ether / IP / TCP 54.68.40.114:https > 192.168.1.240:50251 PA / Raw
+Ether / IP / TCP 54.68.40.114:https > 192.168.1.240:50251 FA
+Ether / IP / TCP 192.168.1.240:50251 > 54.68.40.114:https A
+Ether / IP / TCP 192.168.1.240:50251 > 54.68.40.114:https RA
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 38.110.1.171:https > 192.168.1.240:63544 PA / Raw
+Ether / IP / TCP 192.168.1.240:63544 > 38.110.1.171:https A
+Ether / IP / TCP 192.168.1.240:50256 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50256 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50256 PA / Raw
+Ether / IP / TCP 192.168.1.240:50256 > 149.154.174.100:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.128:62967 > 192.168.1.240:59871 / Raw
+Ether / IP / UDP 192.168.1.240:63631 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.128:62970 > 192.168.1.240:59871 / Raw
+Ether / IP / UDP 192.168.1.240:63633 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / UDP / DNS Ans "52.38.94.96" 
+Ether / IP / TCP 192.168.1.240:50365 > 52.38.94.96:https S
+Ether / IP / TCP 52.38.94.96:https > 192.168.1.240:50365 SA
+Ether / IP / TCP 192.168.1.240:50365 > 52.38.94.96:https A
+Ether / IP / TCP 192.168.1.240:50365 > 52.38.94.96:https PA / Raw
+Ether / IP / UDP 192.168.1.240:51916 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:51917 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:51919 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.240:51921 > 192.168.1.128:59871 / Raw
+Ether / IP / TCP 52.38.94.96:https > 192.168.1.240:50365 A
+Ether / IP / TCP 52.38.94.96:https > 192.168.1.240:50365 A / Raw
+Ether / IP / TCP 52.38.94.96:https > 192.168.1.240:50365 A / Raw
+Ether / IP / TCP 107.167.110.216:https > 192.168.1.240:50386 PA / Raw
+Ether / IP / TCP 107.167.110.216:https > 192.168.1.240:50386 FA
+Ether / IP / TCP 192.168.1.240:50386 > 107.167.110.216:https A
+Ether / IP / TCP 192.168.1.240:50386 > 107.167.110.216:https A
+Ether / IP / TCP 192.168.1.240:50256 > 149.154.174.100:https PA / Raw
+Ether / IP / UDP 192.168.1.128:62520 > 239.255.255.250:ssdp / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50256 PA / Raw
+Ether / IP / TCP 192.168.1.240:50256 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:50377 > 74.125.138.95:https A / Raw
+Ether / IP / TCP 107.167.110.216:https > 192.168.1.240:50416 PA / Raw
+Ether / IP / TCP 107.167.110.216:https > 192.168.1.240:50416 FA
+Ether / IP / TCP 192.168.1.240:50416 > 107.167.110.216:https A
+Ether / IP / TCP 192.168.1.240:50416 > 107.167.110.216:https A
+Ether / IP / TCP 74.125.138.95:https > 192.168.1.240:50377 A
+Ether / IP / UDP 192.168.1.240:54647 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:54648 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:54650 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.240:54652 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.240:54653 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:54654 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:54657 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.240:54658 > 192.168.1.128:59871 / Raw
+Ether / IP / TCP 192.168.1.240:50362 > 142.251.35.238:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50362 > 142.251.35.238:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50362 > 142.251.35.238:https PA / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:50378 > 142.251.116.132:https A / Raw
+Ether / IP / TCP 142.251.116.132:https > 192.168.1.240:50378 A
+Ether / IP / TCP 192.168.1.240:50256 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50256 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50256 PA / Raw
+Ether / IP / TCP 192.168.1.240:50384 > 172.64.150.28:https A / Raw
+Ether / IP / TCP 172.64.150.28:https > 192.168.1.240:50384 A
+Ether / IP / TCP 192.168.1.240:50256 > 149.154.174.100:https A
+Ether / IP / UDP 192.168.1.128:54371 > 192.168.1.240:59871 / Raw
+Ether / IP / UDP 192.168.1.128:54374 > 192.168.1.240:59871 / Raw
+Ether / IP / UDP 192.168.1.240:50923 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.240:50925 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.128:54370 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:54373 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+Ether / IP / UDP 192.168.1.240:50926 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:50927 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 184.105.99.75:https > 192.168.1.240:50445 PA / Raw
+Ether / IP / TCP 192.168.1.240:50445 > 184.105.99.75:https FA
+Ether / IP / TCP 184.105.99.75:https > 192.168.1.240:50445 FPA / Raw
+Ether / IP / TCP 192.168.1.240:50445 > 184.105.99.75:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 184.105.99.75:https > 192.168.1.240:50445 A
+Ether / IP / TCP 142.250.217.234:https > 192.168.1.240:50062 PA / Raw
+Ether / IP / TCP 192.168.1.240:63991 > 108.156.83.11:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63803 > 31.13.67.52:https PA / Raw
+Ether / IP / UDP / DNS Qry "b'jbxzcdv9xc4d.statuspage.io.'" 
+Ether / IP / TCP 192.168.1.240:50115 > 104.192.142.21:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50115 > 104.192.142.21:https PA / Raw
+Ether / IP / TCP 108.156.83.11:https > 192.168.1.240:63991 A / Padding
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / UDP 192.168.1.240:57310 > 142.251.15.138:https / Raw
+Ether / IP / UDP 192.168.1.240:57310 > 142.251.15.138:https / Raw
+Ether / IP / UDP / DNS Ans "b'elb-status-us.statuspage.io.'" 
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 104.192.142.21:https > 192.168.1.240:50115 A / Padding
+Ether / IP / TCP 104.192.142.21:https > 192.168.1.240:50115 A / Padding
+Ether / IP / TCP 104.192.142.21:https > 192.168.1.240:50115 PA / Raw
+Ether / IP / UDP 142.251.15.138:https > 192.168.1.240:57310 / Raw
+Ether / IP / UDP 142.251.15.138:https > 192.168.1.240:57310 / Raw
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 A / Padding
+Ether / IP / UDP 192.168.1.240:57310 > 142.251.15.138:https / Raw
+Ether / IP / UDP 192.168.1.240:57310 > 142.251.15.138:https / Raw
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 A / Padding
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / TCP 192.168.1.240:50469 > 54.191.36.102:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50469 > 54.191.36.102:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50469 > 54.191.36.102:https PA / Raw
+Ether / IP / UDP / DNS Ans "52.35.250.210" 
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Qry "b'_services._dns-sd._udp.local.'" 
+Ether / IP / UDP 192.168.1.254:43007 > 239.255.255.250:ssdp / Raw
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / IP / UDP / DNS Ans "b'_nvstream_dbd._tcp.local.'" 
+Ether / IP / TCP 54.191.36.102:https > 192.168.1.240:50469 A / Padding
+Ether / IP / TCP 54.191.36.102:https > 192.168.1.240:50469 PA / Raw
+Ether / IP / TCP 54.191.36.102:https > 192.168.1.240:50469 A / Padding
+Ether / IP / TCP 192.168.1.240:50362 > 142.251.35.238:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50362 > 142.251.35.238:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50362 > 142.251.35.238:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50304 > 140.82.112.26:https A / Raw
+Ether / IP / TCP 140.82.112.26:https > 192.168.1.240:50304 A
+Ether / IP / UDP 192.168.1.240:56137 > 142.250.217.206:https / Raw
+Ether / IP / UDP 192.168.1.240:56137 > 142.250.217.206:https / Raw
+Ether / IP / UDP 192.168.1.240:56137 > 142.250.217.206:https / Raw
+Ether / IP / UDP 192.168.1.240:56137 > 142.250.217.206:https / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.240:56137 > 142.250.217.206:https / Raw
+Ether / IP / UDP 192.168.1.240:56137 > 142.250.217.206:https / Raw
+Ether / IP / UDP 142.250.217.206:https > 192.168.1.240:56137 / Raw
+Ether / IP / UDP 142.250.217.206:https > 192.168.1.240:56137 / Raw
+Ether / IP / UDP 142.250.217.206:https > 192.168.1.240:56137 / Raw
+Ether / IP / UDP 142.250.217.206:https > 192.168.1.240:56137 / Raw
+Ether / IP / UDP 192.168.1.240:56137 > 142.250.217.206:https / Raw
+Ether / IP / UDP 142.250.217.206:https > 192.168.1.240:56137 / Raw
+Ether / IP / UDP 142.250.217.206:https > 192.168.1.240:56137 / Raw
+Ether / IP / UDP 192.168.1.240:56137 > 142.250.217.206:https / Raw
+Ether / IP / TCP 192.168.1.240:50565 > 142.250.113.101:https A / Raw
+Ether / IP / UDP 192.168.1.128:58193 > 192.168.1.240:59871 / Raw
+Ether / IP / UDP 192.168.1.240:58210 > 192.168.1.128:59871 / Raw
+Ether / IP / TCP 142.250.113.101:https > 192.168.1.240:50565 A
+Ether / IP / UDP 192.168.1.128:58192 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:58211 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:50643 > 142.250.113.113:https A / Raw
+Ether / IP / TCP 142.250.113.113:https > 192.168.1.240:50643 A
+Ether / IP / TCP 192.168.1.240:50667 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50667 PA / Raw
+Ether / IP / TCP 192.168.1.240:50667 > 149.154.174.100:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:50679 > 65.8.178.123:https A / Raw
+Ether / IP / TCP 65.8.178.123:https > 192.168.1.240:50679 A
+Ether / IP / UDP 192.168.1.240:50203 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP 192.168.1.240:50204 > 239.255.255.250:ssdp / Raw
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / TCP 192.168.1.240:50693 > 35.162.73.184:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50693 > 35.162.73.184:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50693 > 35.162.73.184:https PA / Raw
+Ether / IP / UDP / DNS Ans "52.40.37.62" 
+Ether / IP / TCP 35.162.73.184:https > 192.168.1.240:50693 A / Padding
+Ether / IP / TCP 35.162.73.184:https > 192.168.1.240:50693 PA / Raw
+Ether / IP / TCP 35.162.73.184:https > 192.168.1.240:50693 A / Padding
+Ether / IP / TCP 35.162.73.184:https > 192.168.1.240:50693 PA / Raw
+Ether / IP / TCP 35.162.73.184:https > 192.168.1.240:50693 PA / Raw
+Ether / IP / TCP 192.168.1.240:50693 > 35.162.73.184:https A
+Ether / IP / TCP 192.168.1.240:50693 > 35.162.73.184:https PA / Raw
+Ether / IP / TCP 35.162.73.184:https > 192.168.1.240:50693 A / Padding
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 192.168.1.240:50667 > 149.154.174.100:https PA / Raw
+Ether / IP / UDP 192.168.1.240:56750 > 142.250.64.234:https / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50667 PA / Raw
+Ether / IP / UDP 142.250.64.234:https > 192.168.1.240:56750 / Raw
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 A / Padding
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 PA / Raw
+Ether / IP / TCP 192.168.1.240:50667 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 192.168.1.240:50737 > 142.250.9.138:https A / Raw
+Ether / IP / TCP 142.250.9.138:https > 192.168.1.240:50737 A
+Ether / IP / TCP 192.168.1.240:50115 > 104.192.142.21:https A / Raw
+Ether / IP / TCP 104.192.142.21:https > 192.168.1.240:50115 A
+Ether / IP / TCP 34.239.51.178:https > 192.168.1.240:50190 PA / Raw
+Ether / IP / UDP 192.168.1.240:58074 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.240:58076 > 192.168.1.128:59871 / Raw
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 PA / Raw
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 PA / Raw
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 PA / Raw
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 PA / Raw
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https A
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50067 > 142.250.9.113:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 A / Padding
+Ether / IP / TCP 192.168.1.240:50190 > 34.239.51.178:https A
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 A / Padding
+Ether / IP / TCP 142.250.9.113:https > 192.168.1.240:50067 A / Padding
+Ether / IP / TCP 142.250.217.234:https > 192.168.1.240:50062 PA / Raw
+Ether / IP / TCP 192.168.1.240:50062 > 142.250.217.234:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:50732 > 52.40.37.62:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50732 > 52.40.37.62:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50667 > 149.154.174.100:https PA / Raw
+Ether / IP / UDP 142.250.64.234:https > 192.168.1.240:56750 / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50667 PA / Raw
+Ether / IP / UDP 192.168.1.240:56750 > 142.250.64.234:https / Raw
+Ether / IP / TCP 52.40.37.62:https > 192.168.1.240:50732 A / Padding
+Ether / IP / TCP 52.40.37.62:https > 192.168.1.240:50732 A / Padding
+Ether / IP / TCP 52.40.37.62:https > 192.168.1.240:50732 A / Padding
+Ether / IP / TCP 192.168.1.240:50667 > 149.154.174.100:https A
+Ether / IP / TCP 52.40.37.62:https > 192.168.1.240:50732 PA / Raw
+Ether / IP / TCP 52.40.37.62:https > 192.168.1.240:50732 PA / Raw
+Ether / IP / TCP 192.168.1.240:50732 > 52.40.37.62:https A
+Ether / IP / TCP 192.168.1.240:50732 > 52.40.37.62:https PA / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP / DNS Qry "b'_googlezone._tcp.local.'" 
+Ether / IP / UDP / DNS Ans "b'0456a6cc-afd1-3e5f-9bab-369e433d587f._googlezone._tcp.local.'" 
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https A
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 34.210.198.39:https > 192.168.1.240:50827 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / UDP / DNS Qry "b'www.google.com.'" 
+Ether / IP / UDP / DNS Ans "172.253.124.104" 
+Ether / IP / UDP 192.168.1.240:56863 > 172.253.124.104:https / Raw
+Ether / IP / UDP 192.168.1.240:56863 > 172.253.124.104:https / Raw
+Ether / IP / UDP 172.253.124.104:https > 192.168.1.240:56863 / Raw
+Ether / IP / UDP 172.253.124.104:https > 192.168.1.240:56863 / Raw
+Ether / IP / UDP 172.253.124.104:https > 192.168.1.240:56863 / Raw
+Ether / IP / UDP 192.168.1.240:56863 > 172.253.124.104:https / Raw
+Ether / IP / UDP 192.168.1.240:56863 > 172.253.124.104:https / Raw
+Ether / IP / UDP 172.253.124.104:https > 192.168.1.240:56863 / Raw
+Ether / IP / UDP 172.253.124.104:https > 192.168.1.240:56863 / Raw
+Ether / IP / UDP 192.168.1.240:56863 > 172.253.124.104:https / Raw
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / UDP / DNS Ans "50.112.243.29" 
+Ether / IP / TCP 192.168.1.240:50845 > 50.112.243.29:https S
+Ether / IP / TCP 50.112.243.29:https > 192.168.1.240:50845 SA
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:63544 > 38.110.1.171:https PA / Raw
+Ether / IP / TCP 38.110.1.171:https > 192.168.1.240:63544 A / Padding
+Ether / IP / UDP 192.168.1.128:58463 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.240:60560 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / UDP 192.168.1.240:50435 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:50436 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:50742 > 34.236.78.167:https PA / Raw
+Ether / IP / TCP 34.236.78.167:https > 192.168.1.240:50742 PA / Raw
+Ether / IP / UDP 192.168.1.240:50437 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:50438 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:50190 > 34.239.51.178:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 34.239.51.178:https > 192.168.1.240:50190 PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https A
+Ether / IP / UDP 192.168.1.186:61734 > 255.255.255.255:6667 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.180 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.205 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.179 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.145 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.68 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.209 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.181 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.185 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.240 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.128 says 192.168.1.254 / Padding
+Ether / ARP is at f4:a4:75:aa:45:ab says 192.168.1.240
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / UDP / DNS Ans "54.69.13.184" 
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https S
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 SA
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https A
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A / Raw
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A / Raw
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A / Raw
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 PA / Raw
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https A
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 PA / Raw
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 PA / Raw
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https A
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 PA / Raw
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 PA / Raw
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 PA / Raw
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https A
+Ether / IP / TCP 192.168.1.240:50938 > 54.69.13.184:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.128:49845 > 192.168.1.255:59870 / Raw
+Ether / ARP who has 192.168.1.138 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.250 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.131 says 192.168.1.254 / Padding
+Ether / IP / TCP 54.69.13.184:https > 192.168.1.240:50938 A / Padding
+Ether / IP / UDP 192.168.1.240:54994 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+Ether / ARP who has 192.168.1.186 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.198 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.212 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.193 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.195 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.200 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.217 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.180 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.205 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.199 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.145 says 192.168.1.254 / Padding
+Ether / IP / UDP 192.168.1.240:54995 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:54996 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:50742 > 34.236.78.167:https PA / Raw
+Ether / IP / TCP 34.236.78.167:https > 192.168.1.240:50742 PA / Raw
+Ether / IP / UDP 192.168.1.240:54997 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:54998 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:50190 > 34.239.51.178:https PA / Raw
+Ether / IP / TCP 34.239.51.178:https > 192.168.1.240:50190 PA / Raw
+Ether / IP / TCP 192.168.1.240:50742 > 34.236.78.167:https A
+Ether / IP / TCP 192.168.1.240:50190 > 34.239.51.178:https A
+Ether / ARP who has 192.168.1.68 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.209 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.185 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.240 says 192.168.1.254 / Padding
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:51020 > 148.72.164.12:40443 PA / Raw
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 192.168.1.240:51030 > 192.168.1.209:http S
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:51030 SA
+Ether / IP / TCP 192.168.1.240:51030 > 192.168.1.209:http A
+Ether / IP / TCP 192.168.1.240:51030 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.240:51030 > 192.168.1.209:http PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:51030 A
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:51030 PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:51030 PA / Raw
+Ether / IP / TCP 192.168.1.209:http > 192.168.1.240:51030 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / UDP / DNS Ans "35.81.172.225" 
+Ether / IP / TCP 192.168.1.240:51103 > 35.81.172.225:https S
+Ether / ARP who has 192.168.1.240 says 192.168.1.128 / Padding
+Ether / ARP is at f4:a4:75:aa:45:ab says 192.168.1.240
+Ether / IP / TCP 35.81.172.225:https > 192.168.1.240:51103 SA
+Ether / IP / TCP 192.168.1.240:51103 > 35.81.172.225:https A
+Ether / IP / TCP 192.168.1.240:51103 > 35.81.172.225:https PA / Raw
+Ether / IP / TCP 35.81.172.225:https > 192.168.1.240:51103 A
+Ether / IP / TCP 35.81.172.225:https > 192.168.1.240:51103 A / Raw
+Ether / IP / TCP 35.81.172.225:https > 192.168.1.240:51103 PA / Raw
+Ether / IP / TCP 192.168.1.240:64591 > 104.18.40.204:https PA / Raw
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:64591 A / Padding
+Ether / IP / TCP 192.168.1.240:63803 > 31.13.67.52:https PA / Raw
+Ether / IP / TCP 31.13.67.52:https > 192.168.1.240:63803 PA / Raw
+Ether / IP / TCP 192.168.1.240:63803 > 31.13.67.52:https A
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / TCP 192.168.1.240:51124 > 44.235.182.178:https PA / Raw
+Ether / IP / TCP 192.168.1.240:51124 > 44.235.182.178:https PA / Raw
+Ether / IP / TCP 192.168.1.240:51124 > 44.235.182.178:https PA / Raw
+Ether / IP / UDP / DNS Ans "52.13.180.254" 
+Ether / IP / TCP 44.235.182.178:https > 192.168.1.240:51124 A / Padding
+Ether / IP / TCP 44.235.182.178:https > 192.168.1.240:51124 PA / Raw
+Ether / IP / TCP 142.250.217.170:https > 192.168.1.240:50901 PA / Raw
+Ether / IP / TCP 142.250.217.170:https > 192.168.1.240:50901 PA / Raw
+Ether / IP / TCP 192.168.1.240:50901 > 142.250.217.170:https A
+Ether / IP / TCP 192.168.1.240:50901 > 142.250.217.170:https PA / Raw
+Ether / IP / TCP 142.250.217.170:https > 192.168.1.240:50901 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 148.72.164.12:40443 > 192.168.1.240:51161 A / Padding
+Ether / IP / TCP 148.72.164.12:40443 > 192.168.1.240:51161 PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:51174 > 149.154.170.100:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:51161 > 148.72.164.12:40443 A
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 142.250.217.170:https > 192.168.1.240:50901 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50901 > 142.250.217.170:https A
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:51174 A / Padding
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / TCP 149.154.170.100:https > 192.168.1.240:51174 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:51174 > 149.154.170.100:https A
+Ether / IP / TCP 192.168.1.240:50899 > 74.125.138.94:https PA / Raw
+Ether / IP / TCP 74.125.138.94:https > 192.168.1.240:50899 PA / Raw
+Ether / IP / TCP 74.125.138.94:https > 192.168.1.240:50899 PA / Raw
+Ether / IP / TCP 74.125.138.94:https > 192.168.1.240:50899 PA / Raw
+Ether / IP / TCP 192.168.1.240:50899 > 74.125.138.94:https A
+Ether / IP / TCP 192.168.1.240:50899 > 74.125.138.94:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50899 > 74.125.138.94:https PA / Raw
+Ether / IP / TCP 74.125.138.94:https > 192.168.1.240:50899 A / Padding
+Ether / IP / UDP 192.168.1.128:58955 > 192.168.1.240:59871 / Raw
+Ether / IP / UDP 192.168.1.240:58813 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.128:58958 > 192.168.1.240:59871 / Raw
+Ether / IP / UDP 192.168.1.240:58815 > 192.168.1.128:59871 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.128:58957 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:58816 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https A
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 A / Padding
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 A / Padding
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 A / Padding
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 A / Padding
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https A
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / UDP / DNS Ans "44.239.206.93" 
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https S
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 SA
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https A
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50142 > 146.75.126.132:https PA / Raw
+Ether / IP / TCP 146.75.126.132:https > 192.168.1.240:50142 A / Padding
+Ether / IP / TCP 146.75.126.132:https > 192.168.1.240:50142 PA / Raw
+Ether / IP / TCP 146.75.126.132:https > 192.168.1.240:50142 PA / Raw
+Ether / IP / TCP 192.168.1.240:50142 > 146.75.126.132:https A
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 A
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 A / Raw
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 A / Raw
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 A / Raw
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https A
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 PA / Raw
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https A
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https PA / Raw
+Ether / IP / UDP 192.168.1.128:53041 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:50252 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 A
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 PA / Raw
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 PA / Raw
+Ether / IP / UDP 192.168.1.186:53936 > 255.255.255.255:6667 / Raw
+Ether / ARP who has 192.168.1.128 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.139 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.126 says 192.168.1.68 / Padding
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+Ether / IP / UDP 192.168.1.128:59953 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:59954 > 192.168.1.255:59870 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.240:50771 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:50772 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 PA / Raw
+Ether / IP / TCP 192.168.1.131:8009 > 192.168.1.240:63749 PA / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 192.168.1.240:51235 > 184.105.99.75:https S
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 A / Padding
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 A / Padding
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 A / Padding
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 A / Padding
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 172.253.124.139:https > 192.168.1.240:50896 PA / Raw
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https A
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50896 > 172.253.124.139:https PA / Raw
+Ether / IP / TCP 184.105.99.75:https > 192.168.1.240:51235 SA
+Ether / IP / TCP 192.168.1.240:51235 > 184.105.99.75:https A
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / UDP 192.168.1.240:49378 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:49379 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:51043 > 35.175.81.231:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 35.175.81.231:https > 192.168.1.240:51043 PA / Raw
+Ether / IP / UDP 192.168.1.240:64793 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:64794 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:50969 > 54.172.153.54:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+Ether / IP / TCP 54.172.153.54:https > 192.168.1.240:50969 PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 192.168.1.240:51043 > 35.175.81.231:https A
+Ether / IP / TCP 142.250.64.234:https > 192.168.1.240:51192 PA / Raw
+Ether / IP / TCP 192.168.1.240:51192 > 142.250.64.234:https FA
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 142.250.64.234:https > 192.168.1.240:51192 FA
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 192.168.1.240:51192 > 142.250.64.234:https A
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50969 > 54.172.153.54:https A
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / ARP who has 192.168.1.41 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.42 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.43 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.44 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.45 says 192.168.1.254 / Padding
+Ether / ARP who has 192.168.1.46 says 192.168.1.254 / Padding
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:51250 > 148.72.164.12:40443 PA / Raw
+Ether / IP / TCP 192.168.1.240:51250 > 148.72.164.12:40443 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 A / Padding
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 66.110.49.115:https > 192.168.1.240:63422 PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https A
+Ether / IP / UDP / DNS Qry "b'www.google.com.'" 
+Ether / IP / UDP / DNS Ans "74.125.138.103" 
+Ether / IP / UDP 192.168.1.240:59990 > 74.125.138.103:https / Raw
+Ether / IP / UDP 192.168.1.240:59990 > 74.125.138.103:https / Raw
+Ether / IP / UDP 74.125.138.103:https > 192.168.1.240:59990 / Raw
+Ether / IP / UDP 74.125.138.103:https > 192.168.1.240:59990 / Raw
+Ether / IP / UDP 74.125.138.103:https > 192.168.1.240:59990 / Raw
+Ether / IP / UDP 74.125.138.103:https > 192.168.1.240:59990 / Raw
+Ether / IP / UDP 74.125.138.103:https > 192.168.1.240:59990 / Raw
+Ether / IP / UDP 192.168.1.240:59990 > 74.125.138.103:https / Raw
+Ether / IP / UDP 192.168.1.240:59990 > 74.125.138.103:https / Raw
+Ether / IP / UDP 74.125.138.103:https > 192.168.1.240:59990 / Raw
+Ether / IP / UDP 74.125.138.103:https > 192.168.1.240:59990 / Raw
+Ether / IP / UDP 192.168.1.240:59990 > 74.125.138.103:https / Raw
+Ether / IP / UDP 74.125.138.103:https > 192.168.1.240:59990 / Raw
+Ether / IP / TCP 192.168.1.240:51271 > 65.8.178.5:https A / Raw
+Ether / IP / TCP 65.8.178.5:https > 192.168.1.240:51271 A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:63573 > 52.159.127.243:https PA / Raw
+Ether / IP / TCP 52.159.127.243:https > 192.168.1.240:63573 PA / Raw
+Ether / IP / TCP 192.168.1.240:63573 > 52.159.127.243:https A
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:63422 > 66.110.49.115:https PA / Raw
+Ether / IP / TCP 192.168.1.240:51288 > 148.72.164.12:40443 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 PA / Raw
+Ether / IP / TCP 192.168.1.240:51288 > 148.72.164.12:40443 PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https A
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50692 > 64.233.177.139:https PA / Raw
+Ether / IP / TCP 64.233.177.139:https > 192.168.1.240:50692 A / Padding
+Ether / IP / UDP / DNS Qry "b'api.amplitude.com.'" 
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https PA / Raw
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https PA / Raw
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https PA / Raw
+Ether / IP / UDP / DNS Ans "35.82.115.163" 
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 A / Padding
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 PA / Raw
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 A / Padding
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 PA / Raw
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 PA / Raw
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https A
+Ether / IP / TCP 192.168.1.240:51218 > 44.239.206.93:https PA / Raw
+Ether / IP / TCP 44.239.206.93:https > 192.168.1.240:51218 A / Padding
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 PA / Raw
+Ether / IP / TCP 192.168.1.131:8009 > 192.168.1.240:63749 PA / Raw
+Ether / IP / TCP 192.168.1.240:63749 > 192.168.1.131:8009 A
+Ether / IP / TCP 192.168.1.240:51277 > 142.250.189.142:https A / Raw
+Ether / IP / TCP 142.250.189.142:https > 192.168.1.240:51277 A
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.128:63660 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.128:63661 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:55965 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:55966 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:51269 > 107.167.110.211:https A / Raw
+Ether / IP / TCP 107.167.110.211:https > 192.168.1.240:51269 R
+Ether / IP / UDP 192.168.1.180:59398 > 255.255.255.255:6667 / Raw
+Ether / IP / UDP 192.168.1.139:9999 > 255.255.255.255:9999 / Raw
+Ether / IP / UDP 192.168.1.240:55967 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:55968 > 192.168.1.255:59870 / Raw
+Ether / IP / TCP 192.168.1.240:50969 > 54.172.153.54:https PA / Raw
+Ether / IP / TCP 54.172.153.54:https > 192.168.1.240:50969 PA / Raw
+Ether / IP / TCP 192.168.1.240:50969 > 54.172.153.54:https A
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:51247 PA / Raw
+Ether / IP / TCP 192.168.1.240:51278 > 142.250.189.142:https A / Raw
+Ether / IP / TCP 142.250.189.142:https > 192.168.1.240:51278 A
+Ether / IP / TCP 192.168.1.240:51247 > 104.18.40.204:https A
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https PA / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / TCP 192.168.1.240:51244 > 142.250.217.229:https A / Raw
+Ether / IP / TCP 142.250.217.229:https > 192.168.1.240:51244 A
+Ether / IP / TCP 149.154.174.100:https > 192.168.1.240:50879 PA / Raw
+Ether / IP / TCP 192.168.1.240:50879 > 149.154.174.100:https A
+Ether / IP / TCP 192.168.1.240:51267 > 142.251.15.95:https A / Raw
+Ether / IP / TCP 142.251.15.95:https > 192.168.1.240:51267 A
+Ether / IP / TCP 192.168.1.240:51270 > 107.167.110.211:https A / Raw
+Ether / IP / UDP 192.168.1.186:53936 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding
+Ether / IP / UDP 192.168.1.240:58880 > 35.244.171.94:https / Raw
+Ether / IP / UDP 35.244.171.94:https > 192.168.1.240:58880 / Raw
+Ether / IP / UDP 35.244.171.94:https > 192.168.1.240:58880 / Raw
+Ether / IP / UDP 192.168.1.240:58880 > 35.244.171.94:https / Raw
+Ether / IP / UDP 192.168.1.240:58880 > 35.244.171.94:https / Raw
+Ether / IP / UDP 35.244.171.94:https > 192.168.1.240:58880 / Raw
+Ether / IP / TCP 104.18.40.204:https > 192.168.1.240:51247 PA / Raw
+Ether / IP / TCP 192.168.1.240:51247 > 104.18.40.204:https A
+Ether / IP / TCP 192.168.1.240:51367 > 52.89.165.91:https A / Raw
+Ether / IP / TCP 52.89.165.91:https > 192.168.1.240:51367 A
+Ether / IP / UDP 192.168.1.240:58881 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:58882 > 192.168.1.255:59870 / Raw
+Ether / IP / UDP 192.168.1.240:58884 > 192.168.1.128:59871 / Raw
+Ether / IP / UDP 192.168.1.240:58886 > 192.168.1.128:59871 / Raw
+d0:fc:d0:3c:dd:c8 > ff:ff:ff:ff:ff:ff (0x7373) / Raw
+Ether / IP / UDP 192.168.1.131:9487 > 255.255.255.255:9478 / Raw
+Ether / IP / UDP 192.168.1.186:53936 > 255.255.255.255:6667 / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 PA / Raw
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https A
+Ether / IP / TCP 192.168.1.240:50696 > 104.18.36.252:https PA / Raw
+Ether / IP / TCP 104.18.36.252:https > 192.168.1.240:50696 A / Padding

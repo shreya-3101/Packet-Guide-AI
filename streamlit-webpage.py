@@ -47,7 +47,8 @@ if user_name:
             with st.spinner("Thinking..."):
                 response = main_agent(prompt, user_name)
                 message_placeholder.markdown(response)
-                full_response += response
+                if response:
+                    full_response += response
                 message_placeholder.markdown(full_response + "▌")
                 message_placeholder.markdown(full_response)
             st.session_state.messages.append({"role": "assistant", "content": full_response})

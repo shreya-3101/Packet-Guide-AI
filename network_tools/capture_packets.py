@@ -1,9 +1,9 @@
 import pytz
-from scapy.all import sniff
+from scapy.all import sniff, rdpcap
 from scapy.layers.inet import IP, ICMP, UDP, TCP
 from scapy.layers.l2 import Ether
 from scapy.utils import wrpcap
-from custom_llm_prompt import collect_messages_from_custom_prompts
+from custom_llm_prompt import collect_messages_from_custom_prompts, construct_response_summary
 import os
 from scapy.all import *
 
@@ -196,6 +196,57 @@ def sniff_packets_duration(stop_time=None, user_name=None):
         print("Duration packets response builder:", e)
         # custom_response = f"Sniffed {total_count} packets on interface {raw_interface} for {stop_time} seconds"
         custom_response = f"Sniffed {total_count} packets for {stop_time} seconds"
+
+    return custom_response
+
+
+def process_predicted_packets(raw_user_input, prediction, user_name):
+    filtered_packet_info = []
+    all_packets = []
+    # Load packets from the pcap file
+    if os.path.exists(file_path):
+        print("Reading the PCAP file")
+        all_packets = rdpcap(file_path)
+        print(all_packets)
+    if prediction == 'TCP':
+        filtered_packet_info = []
+        # print("TCP predicted")
+        for p in all_packets:
+            if p.haslayer(TCP):
+                filtered_packet_info.append(p.summary())
+    if prediction == 'IP':
+        # print("IP predicted")
+        filtered_packet_info = []
+        for p in all_packets:
+            if p.haslayer(IP):
+                filtered_packet_info.append(p.summary())
+    if prediction == 'UDP':
+        # print("UDP predicted")
+        filtered_packet_info = []
+        for p in all_packets:
+            if p.haslayer(UDP):
+                filtered_packet_info.append(p.summary())
+    if prediction == 'Ether':
+        # print("Ether predicted")
+        filtered_packet_info = []
+        for p in all_packets:
+            if p.haslayer(Ether):
+                filtered_packet_info.append(p.summary())
+    if prediction == 'ICMP':
+        # print("ICMP predicted")
+        filtered_packet_info = []
+        for p in all_packets:
+            if p.haslayer(ICMP):
+                filtered_packet_info.append(p.summary())
+
+    print("All Packets Summary: \n", str(all_packets.summary()))
+    print("All packets summary ends")
+    try:
+        print("Building the custom response, getting summary")
+        custom_response = construct_response_summary(raw_user_input, str(all_packets.summary()), str(filtered_packet_info))
+    except Exception as e:
+        print("Exception thrown:", e)
+        custom_response = "I am sorry, I couldn't process your request. "
 
     return custom_response
 
