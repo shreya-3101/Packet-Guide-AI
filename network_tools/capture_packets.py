@@ -1,5 +1,6 @@
 import pytz
 from scapy.all import sniff, rdpcap
+from scapy.layers.dns import DNS
 from scapy.layers.inet import IP, ICMP, UDP, TCP
 from scapy.layers.l2 import Ether
 from scapy.utils import wrpcap
@@ -207,12 +208,18 @@ def process_predicted_packets(raw_user_input, prediction, user_name):
     if os.path.exists(file_path):
         print("Reading the PCAP file")
         all_packets = rdpcap(file_path)
-        print(all_packets)
+        # print(str(all_packets.summary()))
     if prediction == 'TCP':
         filtered_packet_info = []
         # print("TCP predicted")
         for p in all_packets:
             if p.haslayer(TCP):
+                filtered_packet_info.append(p.summary())
+    if prediction == 'DNS':
+        filtered_packet_info = []
+        # print("DNS predicted")
+        for p in all_packets:
+            if p.haslayer(DNS):
                 filtered_packet_info.append(p.summary())
     if prediction == 'IP':
         # print("IP predicted")
@@ -239,11 +246,11 @@ def process_predicted_packets(raw_user_input, prediction, user_name):
             if p.haslayer(ICMP):
                 filtered_packet_info.append(p.summary())
 
-    print("All Packets Summary: \n", str(all_packets.summary()))
-    print("All packets summary ends")
+    # print("All Packets Summary: \n", str(all_packets))
+    # print("All packets summary ends")
     try:
         print("Building the custom response, getting summary")
-        custom_response = construct_response_summary(raw_user_input, str(all_packets.summary()), str(filtered_packet_info))
+        custom_response = construct_response_summary(raw_user_input, all_packets, str(filtered_packet_info))
     except Exception as e:
         print("Exception thrown:", e)
         custom_response = "I am sorry, I couldn't process your request. "

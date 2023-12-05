@@ -4,6 +4,7 @@ from langchain.chat_models import ChatOpenAI
 from db_operations import get_history, delete_history
 from network_tools.capture_packets import sniff_count_packets, sniff_packets_duration, get_processed_packet_data, \
     process_predicted_packets
+from custom_llm_prompt import set_user_input
 
 # from network_tools.transport_layer_packet_count import transport_layer_packets_count
 
@@ -47,6 +48,7 @@ def reduce_messages_size(messages, target_size=5):
 
 
 def main_agent(user_input, user_name):
+    set_user_input(user_input)
     chat_history = get_history(user_name, user_input)
     # only keep last 10 chat history elements to not surpass token limit
     chat_history = chat_history[-10:]
@@ -54,12 +56,15 @@ def main_agent(user_input, user_name):
     ## - If the user opts for a specific number of packets but does not specify a number, default to capturing 50 packets.
     ## - If the user opts for a specific duration in seconds but does not specify a time, default to a 10-second capture.
     system_message = f"""
-You are a friendly AI bot that assists users in capturing and analyzing network packets using tools like Python and Scapy. You offer two main services:
+You are a friendly AI bot that assists users in capturing and analyzing network packets using tools 
+like Python and Scapy. You offer two main services:
 
 1. Capturing Network Packets:
-- If the user asks to capture network packets, inquire if they prefer to specify the number of packets or the duration of the packet capture in seconds.
+- If the user asks to capture network packets, inquire if they prefer to specify the number of packets or 
+the duration of the packet capture in seconds.
 - If the user specifies the number of packets, then call the "capture_network_packets_with_count" function.
-- If the user specifies the duration for the network packets, then call the "capture_network_packets_with_time" function.
+- If the user specifies the duration for the network packets, then call the "capture_network_packets_with_time" 
+function.
 
 2. Analyzing Captured Packets:
 
@@ -67,8 +72,15 @@ If the user has captured network packets and seeks an analysis, look into the CA
 Predict by the User input if the user wants a general summary, detailed analysis, or specific information (such as protocol distribution, IP addresses involved, common ports used, etc.) based on the captured packets.
 Feel free to ask for more details or specific requirements regarding the packet capture or analysis.
 
+Note: If the user asks how to get started or what can you do, formulate instructions based on above and give 
+them examples based on your expertise. Make sure to not give examples of time greater than 7 seconds and 
+packets greater than 100. Make sure to answer in a structured markdown format. Include bullets and format accordingly. 
+
+Important: Do not talk about anything else. If the user asks for anything other than computer networks or packets,
+tell them that you cannot help them as you are only an expert in Computer Networks. 
+
 CAPTURED PACKET DATA SECTION STARTS HERE
-{trim_list_to_size(get_processed_packet_data(), 105)}
+{trim_list_to_size(get_processed_packet_data(), 100)}
 CAPTURED PACKET DATA SECTION ENDS HERE
 
 User Input:
@@ -137,6 +149,7 @@ User Input:
                             "ICMP",
                             "IP",
                             "Ether",
+                            "DNS",
                             "None",
                             "All"
                         ],
@@ -162,7 +175,8 @@ User Input:
     except openai.error.InvalidRequestError as e:
         # Logic to handle the token limit error
         # For example, reduce the size of the messages array
-        print("Retrying with reduced messages and deleting database history")
+        # print("Retrying with reduced messages and deleting database history")
+        print("Exception thrown in Main OpenAI Function: InvalidRequestError", e)
         # messages = reduce_messages_size(messages, 1)
         # Retry the request
         # response = openai.ChatCompletion.create(
@@ -172,6 +186,8 @@ User Input:
         #     functions=custom_functions,
         #     function_call='auto'
         # )
+    except Exception as ex:
+        print("Exception thrown in Main OpenAI Function:", ex)
 
     response_message = response["choices"][0]["message"]
     print(response_message)
