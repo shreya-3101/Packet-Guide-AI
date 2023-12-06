@@ -19,7 +19,7 @@ with st.sidebar:
 
     # Display data in a table
     st.sidebar.title('PacketGuide Viewer')
-    st.sidebar.table(capture_packets.processed_streamlit_data)
+    # st.sidebar.dataframe(capture_packets.processed_streamlit_data)
 
 st.subheader('📨💬 PacketGuide AI Chatbot')
 # Initialize chat history
@@ -45,7 +45,12 @@ if user_name:
             message_placeholder = st.empty()
             full_response = ""
             with st.spinner("Thinking..."):
-                response = main_agent(prompt, user_name)
+                try:
+                    response = main_agent(prompt, user_name)
+                    st.sidebar.dataframe(capture_packets.processed_streamlit_data)
+                except Exception as e:
+                    print("Exception thrown:", e)
+                    response = "I am sorry, I couldn't process your request."
                 message_placeholder.markdown(response)
                 if response:
                     full_response += response

@@ -2,13 +2,15 @@ import openai
 import json
 from langchain.chat_models import ChatOpenAI
 from db_operations import get_history, delete_history
-from network_tools.capture_packets import sniff_count_packets, sniff_packets_duration, get_processed_packet_data, \
-    process_predicted_packets
+from network_tools.capture_packets import sniff_count_packets, sniff_packets_duration
+from network_tools.capture_packets import get_processed_packet_data
 from custom_llm_prompt import set_user_input
-
+from network_tools.graphs import pcap_display_graphs
+from network_tools.process_packets import process_predicted_packets
 # from network_tools.transport_layer_packet_count import transport_layer_packets_count
 
 llm = ChatOpenAI(temperature=0.6, model="gpt-3.5-turbo-1106")
+
 
 def trim_list_to_size(lst, max_size):
     """
@@ -71,13 +73,18 @@ function.
 If the user has captured network packets and seeks an analysis, look into the CAPTURED PACKET DATA SECTION provided in this prompt. You can provide detailed insights, summaries, or specific information about the captured data.
 Predict by the User input if the user wants a general summary, detailed analysis, or specific information (such as protocol distribution, IP addresses involved, common ports used, etc.) based on the captured packets.
 Feel free to ask for more details or specific requirements regarding the packet capture or analysis.
+If there is something in the CAPTURED PACKET DATA SECTION that you can analyze or find the answer to, always provide
+the analysis on the basis of that in the form of bullet points. Always give a detailed analysis of the captured packets.
+Do not give the commands or code to the user. Only give the analysis of the captured packets. Use the function tools to
+help you with the analysis. You can also use the graphs to help you with the analysis. If you are not bale to get results form the function, then you 
+try to analyze the packets given in the CAPTURED PACKET DATA SECTION. 
 
 Note: If the user asks how to get started or what can you do, formulate instructions based on above and give 
 them examples based on your expertise. Make sure to not give examples of time greater than 7 seconds and 
 packets greater than 100. Make sure to answer in a structured markdown format. Include bullets and format accordingly. 
 
 Important: Do not talk about anything else. If the user asks for anything other than computer networks or packets,
-tell them that you cannot help them as you are only an expert in Computer Networks. 
+tell them that you cannot help them as you are only an expert in Computer Networks. You can always say hello to the user if the user says hello to you.
 
 CAPTURED PACKET DATA SECTION STARTS HERE
 {trim_list_to_size(get_processed_packet_data(), 100)}
@@ -100,7 +107,7 @@ User Input:
     messages.extend(system_prompt)
     messages.extend(user_prompt)
 
-    # print("Final prompt \n", messages)
+    print("Final prompt \n", messages)
 
     custom_functions = [
         {
@@ -132,6 +139,18 @@ User Input:
             }
         },
         {
+            'name': 'pcap_graphs',
+            'description': 'This tool is useful to display the graphs related to the source and destination IP address and Ipv4, IPv6 protocols. Do not display the graphs for other things.',
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "dummy_property": {
+                        "type": "null",
+                    }
+                }
+            }
+        },
+        {
             "name": "predict_packet_protocol",
             "description": "Predicts only one network protocol that the user is asking for in the input and extracts the important information from user input",
             "parameters": {
@@ -154,13 +173,18 @@ User Input:
                             "All"
                         ],
                         "description": "The predicted protocols of the packet"
+                    },
+                    "website_name": {
+                        "type": "string",
+                        "description": "The website name that the user is asking for in the input"
                     }
                 },
                 "required": [
                     "user_input", "prediction"
                 ]
             }
-        }
+        },
+
     ]
 
     # print(f"Input: {messages}")
@@ -189,7 +213,9 @@ User Input:
     except Exception as ex:
         print("Exception thrown in Main OpenAI Function:", ex)
 
+
     response_message = response["choices"][0]["message"]
+
     print(response_message)
 
     if response_message.get('function_call'):
@@ -206,7 +232,8 @@ User Input:
         available_functions = {
             "capture_network_packets_with_count": sniff_count_packets,
             "capture_network_packets_with_time": sniff_packets_duration,
-            "predict_packet_protocol": process_predicted_packets
+            "predict_packet_protocol": process_predicted_packets,
+            "pcap_graphs": pcap_display_graphs
         }
 
         function_to_call = available_functions[function_called]

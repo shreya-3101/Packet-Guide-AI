@@ -3,4 +3,4 @@ langchain==0.0.325
 scapy==2.5.0
 openai==0.27.8
 boto3==1.28.35
-hugchat==0.3.8
+matplotlib==3.7.1
