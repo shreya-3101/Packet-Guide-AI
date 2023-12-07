@@ -1,4 +1,4 @@
-from scapy.layers.dns import DNS
+from scapy.layers.dns import DNS, DNSQR, DNSRR
 from scapy.all import *
 from scapy.layers.inet import TCP, IP, UDP, ICMP
 from scapy.layers.l2 import Ether
@@ -13,10 +13,43 @@ icmp_count = 0
 ip_count = 0
 ether_count = 0
 dns_count = 0
+dns_query_count = 0
+dns_answer_count = 0
+
+
+def count_packet_protocols(pkts):
+    global tcp_count, udp_count, icmp_count, ip_count, ether_count, dns_count, dns_query_count, dns_answer_count
+    tcp_count = 0
+    udp_count = 0
+    icmp_count = 0
+    ip_count = 0
+    ether_count = 0
+    dns_count = 0
+    dns_query_count = 0
+    dns_answer_count = 0
+
+    for p in pkts:
+        if p.haslayer(TCP):
+            tcp_count += 1
+        if p.haslayer(UDP):
+            udp_count += 1
+        if p.haslayer(ICMP):
+            icmp_count += 1
+        if p.haslayer(IP):
+            ip_count += 1
+        if p.haslayer(Ether):
+            ether_count += 1
+        if p.haslayer(DNS):
+            dns_count += 1
+        if p.haslayer(DNSQR):
+            dns_query_count += 1
+        if p.haslayer(DNSRR):
+            dns_answer_count += 1
+    packet_count_string = f" TCP: {tcp_count}, UDP: {udp_count}, ICMP: {icmp_count}, IP: {ip_count}, Ether: {ether_count}, DNS: {dns_count}, DNS Query: {dns_query_count}, DNS Answer: {dns_answer_count}"
+    return packet_count_string
 
 
 def process_predicted_packets(raw_user_input, prediction, website_name=None, user_name=None):
-    global tcp_count, udp_count, icmp_count, ip_count, ether_count, dns_count
     filtered_packet_info = []
     all_packets = []
     # Load packets from the pcap file
@@ -29,14 +62,12 @@ def process_predicted_packets(raw_user_input, prediction, website_name=None, use
         # print("TCP predicted")
         for p in all_packets:
             if p.haslayer(TCP):
-                tcp_count += 1
                 filtered_packet_info.append(p.summary())
     if prediction == 'DNS':
         # print("DNS predicted")
 
         for p in all_packets:
             if p.haslayer(DNS):
-                dns_count += 1
                 filtered_packet_info.append(p.summary())
                 # Match the IP address with the DNS request
                 filtered_packet_info.append(dns_name_ip_mapping(p))
@@ -45,28 +76,24 @@ def process_predicted_packets(raw_user_input, prediction, website_name=None, use
         filtered_packet_info = []
         for p in all_packets:
             if p.haslayer(IP):
-                ip_count += 1
                 filtered_packet_info.append(p.summary())
     if prediction == 'UDP':
         # print("UDP predicted")
         filtered_packet_info = []
         for p in all_packets:
             if p.haslayer(UDP):
-                udp_count += 1
                 filtered_packet_info.append(p.summary())
     if prediction == 'Ether':
         # print("Ether predicted")
         filtered_packet_info = []
         for p in all_packets:
             if p.haslayer(Ether):
-                ether_count += 1
                 filtered_packet_info.append(p.summary())
     if prediction == 'ICMP':
         # print("ICMP predicted")
         filtered_packet_info = []
         for p in all_packets:
             if p.haslayer(ICMP):
-                icmp_count += 1
                 filtered_packet_info.append(p.summary())
     # if website_name is not None:
     #     for p in all_packets:
@@ -77,14 +104,14 @@ def process_predicted_packets(raw_user_input, prediction, website_name=None, use
         for p in all_packets:
             filtered_packet_info.append(p.summary())
 
-    common_protocol_count = f" TCP: {tcp_count}, UDP: {udp_count}, ICMP: {icmp_count}, IP: {ip_count}, Ether: {ether_count}, DNS: {dns_count}"
-    filtered_packet_info.append(common_protocol_count)
+    common_protocol_count = count_packet_protocols(all_packets)
 
     # print("All Packets Summary: \n", str(all_packets))
     # print("All packets summary ends")
+    # all_packets_summary_string = str(all_packets) + " " + common_protocol_count
     try:
         print("Building the custom response, getting summary")
-        custom_response = construct_response_summary(raw_user_input, all_packets, str(filtered_packet_info))
+        custom_response = construct_response_summary(None, common_protocol_count, str(filtered_packet_info))
     except Exception as e:
         print("Exception thrown in process_packets.process_predicted_packets:", e)
         custom_response = "I am sorry, I couldn't process your request. "

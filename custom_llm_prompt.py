@@ -27,16 +27,18 @@ def collect_messages_from_custom_prompts(human_msg):
 
 def construct_response_summary(user_query, all_packets_summary, packet_dump):
     global user_input
-    system_msg = """You will be given the raw PCAP network packet dump. Your job is to understand and analyze 
-    the raw packets. Along with that, you will be given a "All Packets Summary" which will tell you the type 
-    of packets in the total capture. Remember, you might not have all the packet types in the Packet Dump 
-    so if you cannot find packets of a specific type, tell user to query based on those packet types. 
-    You will also be given a User Query which will contain the question that the user wants
-    from the analysis. Answer the user's queries with as precision and detail as possible. Remember to add bullet points  
-    when answering the questions. Don't display the raw packet data. If you couldn't analyze 
-    or find the answer, suggest some better user queries to the user so that they can ask again. """
+    system_msg = """You will be given the raw PCAP network packet dump. Your job is to understand and analyze the raw 
+    packets. Along with that, you will be given a "All Packets Summary" which will tell you the type of packets in 
+    the total capture. Remember, you might not have all the packet types in the Packet Dump so if you cannot find 
+    packets of a specific type, tell user to query based on those packet types. You will also be given a User Query 
+    which will contain the question that the user wants from the analysis. Answer the user's queries with as 
+    precision and detail as possible. Remember to add bullet points when answering the questions. Don't display the 
+    raw packet data. If you couldn't analyze or find the answer, suggest some better user queries to the user so that 
+    they can ask again. For the response that you will be giving, make sure it is in Markdown format and always 
+    highlight important information like IP addresses, domain names, ports, Flags, etc in green. Also, make sure to 
+    keep it crisp and concise."""
 
-    if user_input is not None:
+    if user_query is None:
         formatted_user_query = user_input
     else:
         formatted_user_query = user_query
@@ -71,7 +73,7 @@ def construct_dns_response_summary(human_msg):
     Make it simple and easy to understand."""
 
     # Uses chat-gpt langchain structure to get responses from custom prompts
-    custom_llm = ChatOpenAI(temperature=0.6, model_name="gpt-3.5-turbo-1106", max_retries=1, request_timeout=20)
+    custom_llm = ChatOpenAI(temperature=0.6, model_name="gpt-4-1106-preview", max_retries=1, request_timeout=20)
 
     messages = [
         SystemMessage(content=system_msg),

@@ -38,22 +38,32 @@ def process_packets(packets):
     return processed_data
 
 
-from scapy.all import *
-
 
 def process_packets_detailed(packets):
     processed_data = []
     for single_packet in packets:
-        utc_time = datetime.utcfromtimestamp(single_packet.time).replace(tzinfo=pytz.utc)
-        # Convert UTC time to EST
-        est_time = utc_time.astimezone(pytz.timezone('US/Eastern'))
+        if 'time' in single_packet:
+            utc_time = datetime.utcfromtimestamp(single_packet.time).replace(tzinfo=pytz.utc)
+            # Convert UTC time to EST
+            est_time = utc_time.astimezone(pytz.timezone('US/Eastern'))
+        else:
+            est_time = datetime.now()
+        print("Single Packet:", single_packet)
         # Basic packet details
-        packet_info = {
-            "Time": est_time.strftime('%Y-%m-%d %H:%M:%S %Z'),  # formatted as a string,
-            "Length": len(single_packet),
-            # "Protocol Layers": single_packet.summary(),
-            "Info": single_packet.summary()  # or create a custom summary
-        }
+        if hasattr(single_packet, 'summary') and single_packet.summary() is not None:
+            packet_info = {
+                "Time": est_time.strftime('%Y-%m-%d %H:%M:%S %Z'),  # formatted as a string,
+                "Length": len(single_packet),
+                # "Protocol Layers": single_packet.summary(),
+                "Info": single_packet.summary()  # or create a custom summary
+            }
+        else:
+            packet_info = {
+                "Time": est_time.strftime('%Y-%m-%d %H:%M:%S %Z'),  # formatted as a string,
+                "Length": len(single_packet),
+                # "Protocol Layers": single_packet.summary(),
+                "Info": ""  # or create a custom summary
+            }
 
         # Ethernet layer
         if Ether in single_packet:

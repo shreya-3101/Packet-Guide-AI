@@ -44,7 +44,7 @@ if user_name:
         with st.chat_message("assistant"):
             message_placeholder = st.empty()
             full_response = ""
-            with st.spinner("Thinking..."):
+            with st.spinner("Processing..."):
                 try:
                     response = main_agent(prompt, user_name)
                     st.sidebar.dataframe(capture_packets.processed_streamlit_data)
