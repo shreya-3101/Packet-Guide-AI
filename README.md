@@ -112,7 +112,7 @@ We are committed to enhancing the functionalities of PacketGuide AI. Stay tuned 
 Please read CONTRIBUTING.md for details on our [Code of Conduct](/CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## License
-This project is licensed under the MIT License - see the [License](/LICENSE.md)LICENSE.md file for details.
+This project is licensed under the MIT License - see the [License](/LICENSE.md) file for details.
 
 ## Contact
 Contact
