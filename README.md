@@ -116,4 +116,4 @@ This project is licensed under the MIT License - see the [License](/LICENSE.md) 
 
 ## Contact
 Contact
-For questions or feedback, **Shreya Nandanwar** at shreya.nandanwar2001@email.com or **Tapas Joshi** at tapasjoshi.it@gmail.com.
+For questions or feedback, **Shreya Nandanwar** at shreya.nandanwar2001@gmail.com or **Tapas Joshi** at tapasjoshi.it@gmail.com.
