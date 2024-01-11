@@ -22,7 +22,7 @@ Please ensure that your code adheres to the existing style in the project to mai
 
 ### Code of Conduct
 
-Contributors are expected to adhere to our [Code of Conduct](LINK_TO_CODE_OF_CONDUCT). Please read and follow it.
+Contributors are expected to adhere to our [Code of Conduct](/CODE_OF_CONDUCT.md). Please read and follow it.
 
 ### Setting Up Development Environment
 
