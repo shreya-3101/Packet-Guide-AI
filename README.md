@@ -117,3 +117,14 @@ This project is licensed under the MIT License - see the [License](/LICENSE.md) 
 ## Contact
 Contact
 For questions or feedback, **Shreya Nandanwar** at shreya.nandanwar2001@gmail.com or **Tapas Joshi** at tapasjoshi.it@gmail.com.
+
+## Acknowledgement
+This section is dedicated to recognizing and thanking those who have contributed to the development and success of this project.
+
+## Special Thanks
+
+- **Upanya Cheeti**: For their invaluable insights that greatly enhanced the project.
+
+## Contributions
+
+- **Tapas Joshi**: For significant contributions in the form of code, ideas, project management and for their tireless testing and feedback that have led to numerous improvements.
