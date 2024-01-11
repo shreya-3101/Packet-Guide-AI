@@ -121,10 +121,10 @@ For questions or feedback, **Shreya Nandanwar** at shreya.nandanwar2001@gmail.co
 ## Acknowledgement
 This section is dedicated to recognizing and thanking those who have contributed to the development and success of this project.
 
-## Special Thanks
+### Special Thanks
 
 - **Upanya Cheeti**: For their invaluable insights that greatly enhanced the project.
 
-## Contributions
+### Contributions
 
 - **Tapas Joshi**: For significant contributions in the form of code, ideas, project management and for their tireless testing and feedback that have led to numerous improvements.
