@@ -107,3 +107,13 @@ The Packet Guide AI prototype is designed to simplify complex packet analysis us
 
 ### Future Developments
 We are committed to enhancing the functionalities of PacketGuide AI. Stay tuned for future updates as we work towards making this tool even more beneficial for everyone.
+
+## Contributing
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Contact
+Contact
+For questions or feedback, **Shreya Nandanwar** at shreya.nandanwar2001@email.com or **Tapas Joshi** at tapasjoshi.it@gmail.com.
