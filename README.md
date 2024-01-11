@@ -29,6 +29,26 @@ To set up your environment:
 
 Please ensure that your `.env` file is never committed to version control or shared publicly. This file contains sensitive information that must remain confidential. Always verify your `.gitignore` file includes `.env` to prevent accidental commits.
 
+### OpenAI LLM Model Selection
+
+#### Optimal Model Configuration
+For achieving the best performance and results in our project, we recommend using the `gpt-4-1106-preview` model. This model offers advanced capabilities and improved accuracy, making it ideal for most use cases.
+
+#### Alternative Model Option
+In scenarios where `gpt-4-1106-preview` is not accessible or feasible, you can alternatively use the `gpt-3.5-turbo-1106` model. This model still provides robust performance and is a suitable fallback.
+
+#### Setting the Model in Code
+To specify the model in your `openai_function_agent.py` file, add the following line after the import statements. This sets the model to be used for generating responses.
+
+**For GPT-4:**
+```python
+llm = ChatOpenAI(temperature=0.6, model="gpt-4-1106-preview") # Preferred choice for optimal results
+```
+**For GPT-3.5-turbo**
+```python
+llm = ChatOpenAI(temperature=0.6, model="gpt-3.5-turbo-1106") #Alternative option
+```
+
 ### Running the App
 After installing the requirements and making sure everything is present in the .env file as stated, you can run this streamlit app using the following command.
 ```python
